@@ -1,0 +1,7 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+1513AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1513,Tablet,Comprimé,Cp,Forme galénique comprimé,Drug form,N/A
+1608AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1608,Capsule,Gélule,Gél,Forme galénique gélule,Drug form,N/A
+94ecbbb3-71b7-407b-bac4-3279abbf1b69,false,,Syrup,Sirop,Sirop,Forme galénique sirop,Drug form,N/A
+bd1b2599-84d2-4f33-ba25-4f6d42d147a5,false,,Injection,Injectable,Inj,Forme galénique injectable,Drug form,N/A
+form0005-0000-0000-0000-000000000005,false,,Sachet,Sachet,Sachet,Forme galénique sachet ou poudre pour solution,Drug form,N/A
+form0006-0000-0000-0000-000000000006,false,,Vaginal tablet,Comprimé vaginal,Cp vag,Forme galénique comprimé vaginal ou ovule,Drug form,N/A

@@ -1,0 +1,21 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+70116AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:70116,Paracetamol,Paracétamol,Paracétamol,Antalgique et antipyrétique,Drug,N/A
+71160AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:71160,Amoxicillin,Amoxicilline,Amoxicilline,Antibiotique pénicilline à large spectre,Drug,N/A
+becdbefb-d88b-4a21-affa-46a2c5dbdbdb,false,,Cotrimoxazole,Cotrimoxazole (TMP-SMX),Cotrimoxazole,Antibiotique sulfonamide - triméthoprime + sulfaméthoxazole,Drug,N/A
+79782AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:79782,Metronidazole,Métronidazole,Métronidazole,Antibiotique et antiprotozoaire,Drug,N/A
+med00005-0000-0000-0000-000000000005,false,,Artemether-Lumefantrine,Artéméther-Luméfantrine (Coartem),Coartem,Antipaludique ACT de 1ère ligne,Drug,N/A
+med00006-0000-0000-0000-000000000006,false,,Artesunate-Amodiaquine,Artésunate-Amodiaquine,ASAQ,Antipaludique ACT de 2e ligne,Drug,N/A
+med00007-0000-0000-0000-000000000007,false,,Quinine,Quinine,Quinine,Antipaludique injectable pour paludisme grave,Drug,N/A
+med00008-0000-0000-0000-000000000008,false,,Oral Rehydration Salts,Sels de Réhydratation Orale,SRO,Solution de réhydratation orale,Drug,N/A
+med00009-0000-0000-0000-000000000009,false,,Zinc sulfate,Sulfate de zinc,Zinc,Supplément zinc pour diarrhée aiguë de l'enfant,Drug,N/A
+med00010-0000-0000-0000-000000000010,false,,Ferrous sulfate,Sulfate ferreux,Fer,Supplément en fer pour anémie et femmes enceintes,Drug,N/A
+76613AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:76613,Folic acid,Acide folique,Ac. folique,Supplément vitaminique - prévention anomalies tube neural,Drug,N/A
+86339AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:86339,Vitamin A,Vitamine A,Vit. A,Supplément vitamine A pour enfants 6-59 mois,Drug,N/A
+med00013-0000-0000-0000-000000000013,false,,Mebendazole,Mébendazole,Mébendazole,Anthelminthique pour parasitoses intestinales,Drug,N/A
+med00014-0000-0000-0000-000000000014,false,,Gentamicin,Gentamicine,Gentamicine,Antibiotique aminoside injectable,Drug,N/A
+71188AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:71188,Ampicillin,Ampicilline,Ampicilline,Antibiotique pénicilline injectable à large spectre,Drug,N/A
+med00016-0000-0000-0000-000000000016,false,,Benzylpenicillin,Pénicilline G,Péni G,Antibiotique injectable de référence,Drug,N/A
+med00017-0000-0000-0000-000000000017,false,,Oxytocin,Ocytocine,Ocytocine,Utérotonique pour hémorragie du post-partum,Drug,N/A
+med00018-0000-0000-0000-000000000018,false,,Misoprostol,Misoprostol,Misoprostol,Prévention et traitement hémorragie post-partum,Drug,N/A
+med00019-0000-0000-0000-000000000019,false,,Magnesium sulfate,Sulfate de magnésium,MgSO4,Traitement pré-éclampsie et éclampsie,Drug,N/A
+med00020-0000-0000-0000-000000000020,false,,Lidocaine,Lidocaïne,Lidocaïne,Anesthésique local,Drug,N/A

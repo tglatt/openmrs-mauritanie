@@ -20,5 +20,4 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:f
 164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164180,New consultation,Nouvelle consultation,NC,Nouvelle consultation (premier passage),Misc,N/A
 160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160530,Return consultation,Ancienne consultation,AC,Consultation de suivi,Misc,N/A
 e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Finding,Text
-c1b87f83-0cf4-4c86-919d-cacb6cbc33db,false,,MR - Distance from facility,Distance de provenance,Provenance,Distance entre le domicile du patient et le centre de santé,Finding,Text
-2b1736ae-9dcd-488e-84b1-1b2f0e22c521,false,,MR - Referral destination,Destination de référence,Réf vers,Destination vers laquelle le patient est référé (CS ou HD/CH),Finding,Text
+
