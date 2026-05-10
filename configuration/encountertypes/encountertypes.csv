@@ -8,4 +8,10 @@ e22e39fd-7db2-45e7-80f1-60fa0d5a4378,false,Admission,Admission en hospitalisatio
 ca3aed11-1aa4-42a1-b85c-8332fc8001fc,false,Check In,Enregistrement du patient à l'accueil
 d7151f82-c1f3-4152-a605-2f9ea7414a79,false,Visit Note,Note de consultation clinique
 b3f4a1d2-5c6e-4f7b-8d2e-9a1b3c4d5e6f,false,Pharmacie,Dispensation de médicaments
-a2e3b4c5-6d7f-4e8a-9b1c-0d2e4f6a7b8c,false,Maternité,Suivi grossesse et accouchement
+047d1a49-94f4-4224-b0b3-d2640b9f94f5,false,Chirurgie,Actes chirurgicaux
+d899aafd-5047-4983-8381-2a4c21ca16e7,false,CPN,Consultation Prénatale
+5ec32780-b4ff-4f9e-9790-b937b38a502c,false,Accouchement,Accouchement et soins obstétricaux
+704cbbea-235f-4689-b55c-971e719a4c37,false,CPON,Consultation Post-natale
+0e4bbe76-bb4a-4681-ac32-2be3b16b1d75,false,Planification Familiale,Conseil et méthodes de planification familiale
+fc328505-b545-4d5b-9235-28f7dd230a2d,false,Urgences Obstétricales,Prise en charge des urgences obstétricales
+a2e3b4c5-6d7f-4e8a-9b1c-0d2e4f6a7b8c,false,Décès Maternel et Néonatal,Enregistrement des décès maternels et néonataux

@@ -1,0 +1,158 @@
+{
+  "name": "Consultation Externe",
+  "description": "Registre de consultation externe - Mauritanie",
+  "version": "1",
+  "published": true,
+  "uuid": "2481baa5-3c32-4c28-ab2c-8af3112d01ea",
+  "retired": false,
+  "encounter": "Consultation",
+  "pages": [
+    {
+      "label": "Informations de visite",
+      "sections": [
+        {
+          "label": "Détails",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Date de la consultation",
+              "type": "encounterDatetime",
+              "questionOptions": {
+                "rendering": "datetime"
+              },
+              "required": true,
+              "id": "encDate"
+            },
+            {
+              "label": "Lieu de consultation",
+              "type": "encounterLocation",
+              "questionOptions": {
+                "rendering": "ui-select-extended"
+              },
+              "required": true,
+              "id": "location"
+            },
+            {
+              "label": "Type de consultation",
+              "type": "obs",
+              "id": "visitType",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "164181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Nouvelle consultation (NC)"
+                  },
+                  {
+                    "concept": "160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Ancienne consultation (AC)"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Distance de provenance",
+              "type": "obs",
+              "id": "provenance",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "c1b87f83-0cf4-4c86-919d-cacb6cbc33db"
+              },
+              "questionInfo": "≤ 5 km ou > 5 km"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Consultation",
+      "sections": [
+        {
+          "label": "Motif et examen clinique",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Symptômes / Motif de consultation",
+              "type": "obs",
+              "id": "chiefComplaint",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "5219AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              }
+            },
+            {
+              "label": "Examen clinique",
+              "type": "obs",
+              "id": "examination",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "163104AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Diagnostic et traitement",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Diagnostic",
+              "type": "obs",
+              "id": "diagnosis",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1284AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              }
+            },
+            {
+              "label": "Traitement",
+              "type": "obs",
+              "id": "treatment",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "1282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Observations",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Observations",
+              "type": "obs",
+              "id": "observations",
+              "questionOptions": {
+                "rendering": "textarea",
+                "concept": "e4481085-3bcb-4a9a-84b2-9f7b730ec7b0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Référence",
+      "sections": [
+        {
+          "label": "Destination de référence",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Référé vers",
+              "type": "obs",
+              "id": "refDestination",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "2b1736ae-9dcd-488e-84b1-1b2f0e22c521"
+              },
+              "questionInfo": "CS (Centre de Santé) ou HD/CH (Hôpital de District / Centre Hospitalier)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
