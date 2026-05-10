@@ -1,4 +1,7 @@
 {
+  "@openmrs/esm-framework": {
+    "locale": "fr"
+  },
   "@openmrs/esm-styleguide": {
     "Brand color #1": "#006233",
     "Brand color #2": "#FFD100",
