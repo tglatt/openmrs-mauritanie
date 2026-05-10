@@ -1,15 +1,15 @@
-Uuid,Void/Retire,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Datatype,Class,Is set,Same as mappings
-,false,Temperature,Température,Temp,Température corporelle en degrés Celsius,Numeric,Finding,false,CIEL:5088
-,false,Weight,Poids,Poids,Poids du patient en kilogrammes,Numeric,Finding,false,CIEL:5089
-,false,Blood pressure,Tension artérielle,TA,Tension artérielle systolique/diastolique,Text,Finding,false,CIEL:5085
-,false,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Text,Diagnosis,false,CIEL:1284
-,false,Treatment,Traitement,Trait,Traitement prescrit,Text,Drug,false,CIEL:1282
-,false,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Text,Finding,false,CIEL:5219
-,false,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Coded,Test,false,CIEL:1643
-,false,Positive,Positif,Pos,,N/A,Misc,false,CIEL:703
-,false,Negative,Négatif,Neg,,N/A,Misc,false,CIEL:664
-,false,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Text,Finding,false,CIEL:163104
-,false,Disposition,Résultat de consultation,Résultat,Issue de la consultation (renvoyé, référé, hospitalisé),Coded,Finding,false,CIEL:1246
-e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Text,Finding,false,
-c1b87f83-0cf4-4c86-919d-cacb6cbc33db,false,MR - Distance from facility,Distance de provenance,Provenance,Distance entre le domicile du patient et le centre de santé (≤ 5 km ou > 5 km),Text,Finding,false,
-2b1736ae-9dcd-488e-84b1-1b2f0e22c521,false,MR - Referral destination,Destination de référence,Réf vers,Destination vers laquelle le patient est référé (CS ou HD/CH),Text,Finding,false,
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+,false,CIEL:5088,Temperature,Température,Temp,Température corporelle en degrés Celsius,Finding,Numeric
+,false,CIEL:5089,Weight,Poids,Poids,Poids du patient en kilogrammes,Finding,Numeric
+,false,CIEL:5085,Blood pressure,Tension artérielle,TA,Tension artérielle systolique/diastolique,Finding,Text
+,false,CIEL:1284,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Diagnosis,Text
+,false,CIEL:1282,Treatment,Traitement,Trait,Traitement prescrit,Drug,Text
+,false,CIEL:5219,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Finding,Text
+,false,CIEL:1643,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Test,Coded
+,false,CIEL:703,Positive,Positif,Pos,,Misc,N/A
+,false,CIEL:664,Negative,Négatif,Neg,,Misc,N/A
+,false,CIEL:163104,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Finding,Text
+,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation (renvoyé, référé, hospitalisé),Finding,Coded
+e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Finding,Text
+c1b87f83-0cf4-4c86-919d-cacb6cbc33db,false,,MR - Distance from facility,Distance de provenance,Provenance,Distance entre le domicile du patient et le centre de santé (≤ 5 km ou > 5 km),Finding,Text
+2b1736ae-9dcd-488e-84b1-1b2f0e22c521,false,,MR - Referral destination,Destination de référence,Réf vers,Destination vers laquelle le patient est référé (CS ou HD/CH),Finding,Text

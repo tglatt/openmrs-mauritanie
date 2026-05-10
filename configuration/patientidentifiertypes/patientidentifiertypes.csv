@@ -1,2 +1,4 @@
 Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,Location behavior,Uniqueness behavior
 3cf646c3-6bb4-4c61-aba0-ef338b5e21ee,false,NNI,Numéro National d'Identité mauritanien,true,^[0-9]{10}$,10 chiffres sans espace ni tiret,,NOT_USED,UNIQUE
+8d793bee-c2cc-11de-8d13-0010c6dffd0f,true,OpenMRS Identification Number,,,,,,,
+8d79403a-c2cc-11de-8d13-0010c6dffd0f,true,Old Identification Number,,,,,,,
