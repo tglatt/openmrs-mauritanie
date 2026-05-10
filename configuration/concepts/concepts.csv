@@ -1,15 +1,18 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
-,false,CIEL:5088,Temperature,Température,Temp,Température corporelle en degrés Celsius,Finding,Numeric
-,false,CIEL:5089,Weight,Poids,Poids,Poids du patient en kilogrammes,Finding,Numeric
-,false,CIEL:5085,Blood pressure,Tension artérielle,TA,Tension artérielle systolique/diastolique,Finding,Text
-,false,CIEL:1284,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Diagnosis,Text
-,false,CIEL:1282,Treatment,Traitement,Trait,Traitement prescrit,Drug,Text
-,false,CIEL:5219,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Finding,Text
-,false,CIEL:1643,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Test,Coded
-,false,CIEL:703,Positive,Positif,Pos,,Misc,N/A
-,false,CIEL:664,Negative,Négatif,Neg,,Misc,N/A
-,false,CIEL:163104,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Finding,Text
-,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation,Finding,Coded
+5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5088,Temperature,Température,Temp,Température corporelle en degrés Celsius,Finding,Numeric
+5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5089,Weight,Poids,Poids,Poids du patient en kilogrammes,Finding,Numeric
+5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5085,Blood pressure,Tension artérielle,TA,Tension artérielle systolique/diastolique,Finding,Text
+1284AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1284,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Diagnosis,Text
+1282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1282,Treatment,Traitement,Trait,Traitement prescrit,Drug,Text
+5219AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5219,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Finding,Text
+1643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1643,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Test,Coded
+703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:703,Positive,Positif,Pos,,Misc,N/A
+664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:664,Negative,Négatif,Neg,,Misc,N/A
+163104AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163104,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Finding,Text
+1246AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation,Finding,Coded
+164181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164181,Visit type,Type de consultation,Type consult.,Type de visite (nouvelle ou ancienne consultation),Question,Coded
+164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164180,New consultation,Nouvelle consultation,NC,Nouvelle consultation (premier passage),Misc,N/A
+160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160530,Return consultation,Ancienne consultation,AC,Consultation de suivi,Misc,N/A
 e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Finding,Text
-c1b87f83-0cf4-4c86-919d-cacb6cbc33db,false,,MR - Distance from facility,Distance de provenance,Provenance,Distance entre le domicile du patient et le centre de santé (≤ 5 km ou > 5 km),Finding,Text
+c1b87f83-0cf4-4c86-919d-cacb6cbc33db,false,,MR - Distance from facility,Distance de provenance,Provenance,Distance entre le domicile du patient et le centre de santé,Finding,Text
 2b1736ae-9dcd-488e-84b1-1b2f0e22c521,false,,MR - Referral destination,Destination de référence,Réf vers,Destination vers laquelle le patient est référé (CS ou HD/CH),Finding,Text

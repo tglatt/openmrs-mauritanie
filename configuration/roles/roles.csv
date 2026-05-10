@@ -1,7 +1,7 @@
 Uuid,Void/Retire,Role name,Description,Inherited roles,Privileges
 334980c3-2125-414b-aac0-e01490882bfa,false,Réceptionniste,Enregistrement et accueil des patients,,Get Patients;Add Patients;Edit Patients
 b2ae3bab-718e-4cd7-8592-a14437df1e2f,false,Infirmier,Triage et soins infirmiers,,Get Patients;Add Encounters;Edit Encounters;Get Encounters
-6d589e58-c498-437f-ac22-b25185466cf5,false,Médecin,Consultation et prescriptions,Infirmier,Get Patients;Add Encounters;Edit Encounters;Delete Encounters;Get Encounters;Add Orders;Edit Orders
+146d5fc2-f8d5-4c55-b67e-1d493d54393c,false,Médecin,Consultation et prescriptions,Infirmier;Privilege Level: Full,
 5b79586f-4b77-410c-a877-9a4ec895b266,false,Pharmacien,Dispensation des médicaments,,Get Patients;Get Orders;Add Encounters;Edit Encounters
 0753b779-6ea7-47d2-9ae8-bb090b68d5fe,false,Laborantin,Analyses biologiques,,Get Patients;Add Encounters;Edit Encounters;Get Encounters
 c75f00ad-68bb-4866-ac65-9f1f69218245,false,Administrateur santé,Administration du système de santé,Infirmier;Médecin,Get Patients;Add Patients;Edit Patients;Delete Patients;Add Encounters;Edit Encounters;Delete Encounters
