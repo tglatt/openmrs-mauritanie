@@ -1,7 +1,13 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
 5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5088,Temperature,Température,Temp,Température corporelle en degrés Celsius,Finding,Numeric
 5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5089,Weight,Poids,Poids,Poids du patient en kilogrammes,Finding,Numeric
-5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5085,Blood pressure,Tension artérielle,TA,Tension artérielle systolique/diastolique,Finding,Text
+5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5085,Systolic blood pressure,Tension artérielle systolique,TAS,Tension artérielle systolique en mmHg,Finding,Numeric
+5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5086,Diastolic blood pressure,Tension artérielle diastolique,TAD,Tension artérielle diastolique en mmHg,Finding,Numeric
+5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5090,Height,Taille,Taille,Taille du patient en centimètres,Finding,Numeric
+5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5092,Pulse rate,Fréquence cardiaque,FC,Fréquence cardiaque en battements par minute,Finding,Numeric
+5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5242,Blood oxygen saturation,Saturation en oxygène,SpO2,Saturation en oxygène mesurée par oxymètre de pouls,Finding,Numeric
+5096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5096,MUAC,Périmètre brachial,MUAC,Périmètre brachial en centimètres,Finding,Numeric
+1342AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1342,BMI,IMC,IMC,Indice de masse corporelle,Finding,Numeric
 1284AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1284,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Diagnosis,Text
 1282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1282,Treatment,Traitement,Trait,Traitement prescrit,Drug,Text
 5219AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5219,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Finding,Text
