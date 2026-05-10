@@ -121,15 +121,25 @@ Login par défaut : `admin` / `Admin123`
 
 La configuration est importée automatiquement par l'Initializer (~15 min au premier démarrage).
 
-## Données de test
+## Initialisation après démarrage
+
+Après chaque réinitialisation de la base de données, lancer dans cet ordre :
 
 ```bash
-# 1. Créer 100 patients fictifs mauritaniens
+# 1. Configuration des rôles et création des médecins (obligatoire)
+python3 scripts/setup.py
+
+# 2. Créer 100 patients fictifs mauritaniens
 python3 scripts/add-patients.py
 
-# 2. Créer 10 visites actives + 100 RDV sur la semaine à venir
+# 3. Créer 10 visites actives + 100 RDV sur la semaine à venir
 python3 scripts/add-visits-appointments.py
 ```
+
+Le script `setup.py` :
+- Configure le rôle Médecin avec les bons privilèges (files d'attente, formulaires)
+- Crée les comptes médecins avec leurs providers associés
+- Crée un provider pour l'utilisateur admin
 
 ## Commandes utiles
 

@@ -1,0 +1,478 @@
+{
+  "name": "Consultation prénatale",
+  "description": "Registre de Consultation Prénatale - Centre de Santé de Néma",
+  "version": "1",
+  "published": true,
+  "uuid": "8a4d1e3b-2c5f-4g9d-b3e6-7f8a9b0c2e3f",
+  "retired": false,
+  "encounter": "CPN",
+  "pages": [
+    {
+      "label": "Visite CPN",
+      "sections": [
+        {
+          "label": "Numéro de visite CPN",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "CPN 1 (< 16 SA)",
+              "type": "obs",
+              "id": "cpn_lt16sa",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Oui"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "CPN 1 (> 16 SA)",
+              "type": "obs",
+              "id": "cpn_gt16sa",
+              "questionOptions": {
+                "rendering": "checkbox",
+                "concept": "1439AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Oui"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "CPN 2",
+              "type": "obs",
+              "id": "cpn_2",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000010",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "CPN 3",
+              "type": "obs",
+              "id": "cpn_3",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000009",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "CPN 4 (= 36 SA)",
+              "type": "obs",
+              "id": "cpn_egal36sa",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000008",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "CPN 4 (> 36 SA)",
+              "type": "obs",
+              "id": "cpn_gt36sa",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000007",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "CPN 5",
+              "type": "obs",
+              "id": "cpn_5",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "159427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tests biologiques",
+      "sections": [
+        {
+          "label": "Tests urinaires",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Test urine 1",
+              "type": "obs",
+              "id": "test_urine_1",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000001"
+              }
+            },
+            {
+              "label": "Test urine 2",
+              "type": "obs",
+              "id": "test_urine_2",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000002"
+              }
+            },
+            {
+              "label": "Test urine 3",
+              "type": "obs",
+              "id": "test_urine_3",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000003"
+              }
+            },
+            {
+              "label": "Test urine 4",
+              "type": "obs",
+              "id": "test_urine_4",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000004"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Test HBs (Hépatite B)",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Conseil prétest HBs",
+              "type": "obs",
+              "id": "hbs_pretest",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000005",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "Test HBs réalisé",
+              "type": "obs",
+              "id": "hbs_test",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1322AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positif"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Négatif"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Conseil post-test HBs",
+              "type": "obs",
+              "id": "hbs_posttest",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000006",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Test VIH",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Conseil prétest VIH",
+              "type": "obs",
+              "id": "vih_pretest",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "161557AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "Résultat test VIH",
+              "type": "obs",
+              "id": "vih_test",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positif"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Négatif"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Conseil post-test VIH",
+              "type": "obs",
+              "id": "vih_posttest",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "161558AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Test Syphilis",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Conseil prétest syphilis",
+              "type": "obs",
+              "id": "syphilis_pretest",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000009",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "Résultat test syphilis (TPHA)",
+              "type": "obs",
+              "id": "syphilis_test",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1649AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Positif"
+                  },
+                  {
+                    "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Négatif"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Conseil post-test syphilis",
+              "type": "obs",
+              "id": "syphilis_posttest",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "b2c3d4e5-2222-2222-2222-000000000010",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Préventions et traitements",
+      "sections": [
+        {
+          "label": "Moustiquaire",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Moustiquaire imprégnée fournie (1ère visite)",
+              "type": "obs",
+              "id": "moustiquaire",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "159882AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Vaccination tétanos (Td)",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Numéro de dose Td administrée",
+              "type": "obs",
+              "id": "td_dose",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "159856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Td 1"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Td 2"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Td 3"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Td 4"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Td 5"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Chimio-prophylaxie paludisme (TPI)",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "TPI administré",
+              "type": "obs",
+              "id": "tpi",
+              "questionOptions": {
+                "rendering": "select",
+                "concept": "1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TPI 1"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TPI 2"
+                  },
+                  {
+                    "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "TPI 3"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "label": "Supplémentation en fer",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Fer administré",
+              "type": "obs",
+              "id": "fer",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "159909AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Grossesse à risque",
+      "sections": [
+        {
+          "label": "Grossesse à risque",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Grossesse à risque détectée",
+              "type": "obs",
+              "id": "risque_detectee",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "1148AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            },
+            {
+              "label": "Patiente référée",
+              "type": "obs",
+              "id": "risque_referee",
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "160630AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

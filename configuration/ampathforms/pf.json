@@ -1,5 +1,5 @@
 {
-  "name": "Registre Planification Familiale",
+  "name": "Planification Familiale",
   "description": "Registre de Planification Familiale - Centre de Santé de Néma",
   "version": "1",
   "published": true,
@@ -18,25 +18,57 @@
               "label": "Nouvelle acceptante",
               "type": "obs",
               "id": "nouvelle_acceptante",
-              "questionOptions": { "rendering": "toggle", "concept": "374AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "374AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
             },
             {
               "label": "Nouvelle acceptante en post-partum",
               "type": "obs",
               "id": "nouvelle_acceptante_post_partum",
-              "questionOptions": { "rendering": "toggle", "concept": "162277AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "162277AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
             },
             {
               "label": "Nouvelle acceptante après avortement",
               "type": "obs",
               "id": "nouvelle_acceptante_apres_avortement",
-              "questionOptions": { "rendering": "toggle", "concept": "c3d4e5f6-3333-3333-3333-000000000001" }
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000001",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
             },
             {
               "label": "Nouvelle acceptante mise sous méthode",
               "type": "obs",
               "id": "nouvelle_acceptante_mise_sous_methode",
-              "questionOptions": { "rendering": "toggle", "concept": "c3d4e5f6-3333-3333-3333-000000000002" }
+              "questionOptions": {
+                "rendering": "toggle",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000002",
+                "toggleOptions": {
+                  "labelTrue": "Oui",
+                  "labelFalse": "Non",
+                  "interpretAsBooleanField": true
+                }
+              }
             }
           ]
         },
@@ -48,19 +80,30 @@
               "label": "Distance ≤ 5 km (nombre)",
               "type": "obs",
               "id": "provenance_lte_5km",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000003", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000003",
+                "min": "0"
+              }
             },
             {
               "label": "Distance > 5 km (nombre)",
               "type": "obs",
               "id": "provenance_gt_5km",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000004", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000004",
+                "min": "0"
+              }
             },
             {
               "label": "Localité / Quartier",
               "type": "obs",
               "id": "localite_quartier",
-              "questionOptions": { "rendering": "text", "concept": "c3d4e5f6-3333-3333-3333-000000000005" }
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000005"
+              }
             }
           ]
         }
@@ -77,13 +120,21 @@
               "label": "Microgynon (nb de cycles)",
               "type": "obs",
               "id": "microgynon_nbre_cycles",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000006", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000006",
+                "min": "0"
+              }
             },
             {
               "label": "Microlut (nb de cycles)",
               "type": "obs",
               "id": "microlut_nbre_cycles",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000007", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000007",
+                "min": "0"
+              }
             }
           ]
         }
@@ -100,13 +151,21 @@
               "label": "Depo-Provera — Nouvelle",
               "type": "obs",
               "id": "depo_provera_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000008", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000008",
+                "min": "0"
+              }
             },
             {
               "label": "Depo-Provera — Ancienne",
               "type": "obs",
               "id": "depo_provera_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000009", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000009",
+                "min": "0"
+              }
             }
           ]
         },
@@ -118,13 +177,21 @@
               "label": "Noristrat — Nouvelle",
               "type": "obs",
               "id": "noristrat_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000010", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000010",
+                "min": "0"
+              }
             },
             {
               "label": "Noristrat — Ancienne",
               "type": "obs",
               "id": "noristrat_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000011", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000011",
+                "min": "0"
+              }
             }
           ]
         },
@@ -136,13 +203,21 @@
               "label": "Sayana Press — Nouvelle",
               "type": "obs",
               "id": "sayana_press_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000012", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000012",
+                "min": "0"
+              }
             },
             {
               "label": "Sayana Press — Ancienne",
               "type": "obs",
               "id": "sayana_press_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000013", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000013",
+                "min": "0"
+              }
             }
           ]
         }
@@ -159,13 +234,21 @@
               "label": "TCu 380 — Nouvelle",
               "type": "obs",
               "id": "tcu380_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000014", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000014",
+                "min": "0"
+              }
             },
             {
               "label": "TCu 380 — Ancienne",
               "type": "obs",
               "id": "tcu380_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000015", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000015",
+                "min": "0"
+              }
             }
           ]
         },
@@ -177,13 +260,21 @@
               "label": "Implanon NXT — Nouvelle",
               "type": "obs",
               "id": "implanon_nxt_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000020", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000020",
+                "min": "0"
+              }
             },
             {
               "label": "Implanon NXT — Ancienne",
               "type": "obs",
               "id": "implanon_nxt_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000021", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000021",
+                "min": "0"
+              }
             }
           ]
         },
@@ -195,13 +286,21 @@
               "label": "Jadelle — Nouvelle",
               "type": "obs",
               "id": "jadelle_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000022", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000022",
+                "min": "0"
+              }
             },
             {
               "label": "Jadelle — Ancienne",
               "type": "obs",
               "id": "jadelle_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000023", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000023",
+                "min": "0"
+              }
             }
           ]
         }
@@ -218,13 +317,21 @@
               "label": "Condom masculin — Nouvelle",
               "type": "obs",
               "id": "condom_masculin_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000016", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000016",
+                "min": "0"
+              }
             },
             {
               "label": "Condom masculin — Ancienne",
               "type": "obs",
               "id": "condom_masculin_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000017", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000017",
+                "min": "0"
+              }
             }
           ]
         },
@@ -236,13 +343,21 @@
               "label": "Condom féminin — Nouvelle",
               "type": "obs",
               "id": "condom_feminin_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000018", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000018",
+                "min": "0"
+              }
             },
             {
               "label": "Condom féminin — Ancienne",
               "type": "obs",
               "id": "condom_feminin_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000019", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000019",
+                "min": "0"
+              }
             }
           ]
         }
@@ -259,13 +374,21 @@
               "label": "Changement de méthode — Nouvelle",
               "type": "obs",
               "id": "changement_methode_nle",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000024", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000024",
+                "min": "0"
+              }
             },
             {
               "label": "Changement de méthode — Ancienne",
               "type": "obs",
               "id": "changement_methode_anc",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000025", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000025",
+                "min": "0"
+              }
             }
           ]
         },
@@ -277,7 +400,11 @@
               "label": "Grossesses survenues sous contraception",
               "type": "obs",
               "id": "grossesses_sous_contraception",
-              "questionOptions": { "rendering": "number", "concept": "c3d4e5f6-3333-3333-3333-000000000026", "min": "0" }
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "c3d4e5f6-3333-3333-3333-000000000026",
+                "min": "0"
+              }
             }
           ]
         }
