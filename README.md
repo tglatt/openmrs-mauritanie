@@ -10,7 +10,8 @@ Instance OpenMRS 3 configurée pour la gestion des centres de santé mauritanien
 - Identifiant patient : NNI (Numéro National d'Identité, 10 chiffres, unique)
 - Types de consultation liés aux registres du Ministère de la Santé
 - Concepts médicaux CIEL + concepts spécifiques Mauritanie
-- Attributs patients : NNI, téléphone
+- File d'attente (Triage / Consultation) avec priorités et statuts
+- Modes de paiement adaptés (Espèces, Mobile Money, CNAM, etc.)
 - Formulaires O3 : Consultation Externe
 - Configuration chargée automatiquement via Initializer au démarrage
 
@@ -18,34 +19,45 @@ Instance OpenMRS 3 configurée pour la gestion des centres de santé mauritanien
 
 ```
 openmrs-mauritanie/
+├── Dockerfile                              # Image backend custom (sans configs demo)
 ├── docker-compose.yml
-├── config-mauritania.json              # Configuration frontend O3
-├── configuration/                      # Chargée par Initializer au démarrage
-│   ├── addresshierarchy/
-│   │   ├── addressConfiguration.xml   # Niveaux : Pays > Wilaya > Moughataa > Commune
-│   │   └── addresshierarchy.csv       # ~140 entrées géographiques
-│   ├── ampathforms/
-│   │   └── consultation-externe.json  # Formulaire O3 consultation externe
-│   ├── attributetypes/
-│   │   └── attributetypes.csv         # Code FOSA (attribut location)
-│   ├── concepts/
-│   │   └── concepts.csv               # Concepts CIEL + concepts MR spécifiques
-│   ├── encountertypes/
-│   │   └── encountertypes.csv         # 10 registres : Consultation, CPN, Accouchement...
-│   ├── globalproperties/
-│   │   └── globalproperties.xml       # Locale fr, pays MR, NNI par défaut
-│   ├── locations/
-│   │   └── locations.csv              # Wilayas, moughataas, hôpitaux, CS avec UUIDs
-│   ├── patientidentifiertypes/
-│   │   └── patientidentifiertypes.csv # NNI (10 chiffres, unique)
-│   ├── personattributetypes/
-│   │   └── personattributetypes.csv   # NNI, Téléphone
-│   ├── roles/
-│   │   └── roles.csv
-│   └── visittypes/
-│       └── visittypes.csv             # Facility Visit, OPD Visit
-└── temp/
-    └── registres/                     # Registres source du Ministère de la Santé (JSON)
+├── config-mauritania.json                  # Configuration frontend O3
+├── assets/
+│   └── logo-msas.png                       # Logo Ministère de la Santé
+├── scripts/
+│   └── add-patients.py                     # Script création de patients fictifs
+└── configuration/                          # Chargée par Initializer au démarrage
+    ├── addresshierarchy/
+    │   ├── addressConfiguration.xml        # Niveaux : Pays > Wilaya > Moughataa > Commune
+    │   └── addresshierarchy.csv            # ~140 entrées géographiques
+    ├── ampathforms/
+    │   └── consultation-externe.json       # Formulaire O3 consultation externe
+    ├── attributetypes/
+    │   └── attributetypes.csv              # Code FOSA, Insurance Policy Number, Punctuality
+    ├── concepts/
+    │   ├── concepts.csv                    # Concepts CIEL + concepts MR spécifiques
+    │   ├── queue-concepts.csv              # Concepts file d'attente (priorités, statuts, services)
+    │   └── [fichiers referenceapplication] # Concepts extraits de la référenceapplication
+    ├── conceptsources/
+    │   └── conceptsources.csv              # Source CIEL
+    ├── encountertypes/
+    │   └── encountertypes.csv              # 16 types : Consultation, CPN, Accouchement...
+    ├── globalproperties/
+    │   └── globalproperties.xml            # Locale fr, pays MR, NNI par défaut, queues
+    ├── locations/
+    │   └── locations.csv                   # Wilayas, moughataas, hôpitaux, CS avec codes FOSA
+    ├── patientidentifiertypes/
+    │   └── patientidentifiertypes.csv      # NNI (10 chiffres, unique)
+    ├── paymentmodes/
+    │   └── paymentmodes.csv                # Espèces, Chèque, Virement, Mobile Money, CNAM...
+    ├── personattributetypes/
+    │   └── personattributetypes.csv        # NNI, Téléphone
+    ├── queues/
+    │   └── queues.csv                      # Files d'attente Triage et Consultation
+    ├── roles/
+    │   └── roles.csv
+    └── visittypes/
+        └── visittypes.csv
 ```
 
 ## Registres configurés
@@ -63,49 +75,80 @@ openmrs-mauritanie/
 | 09 | Urgences Obstétricales | Urgences Obstétricales |
 | 10 | Décès Maternels et Néonataux | Décès Maternel et Néonatal |
 
+## Modes de paiement
+
+| Mode | Description |
+|---|---|
+| Espèces | Paiement cash |
+| Chèque | Chèque bancaire |
+| Virement bancaire | Transfert bancaire |
+| Mobile Money (Masrivi) | Paiement mobile mauritanien |
+| Assurance maladie (CNAM) | Caisse Nationale d'Assurance Maladie |
+| Prise en charge gratuite | Gratuité (urgences, indigents) |
+
 ## Prérequis
 
 - Docker et Docker Compose
+- Python 3 (pour le script de données fictives)
 
 ## Démarrage
 
 ```bash
-docker compose up -d
+# Premier démarrage (construction de l'image custom)
+docker compose up -d --build
+
+# Accès
+http://localhost/openmrs/spa
 ```
 
-Accès : http://localhost/openmrs/spa
+Login par défaut : `admin` / `Admin123`
 
-Login par défaut : `admin` / `Admin1234`
+La configuration est importée automatiquement par l'Initializer (~15 min au premier démarrage).
 
-La configuration est importée automatiquement par l'Initializer au premier démarrage.
+## Données de test
+
+```bash
+# Créer 100 patients fictifs mauritaniens
+python3 scripts/add-patients.py
+```
 
 ## Commandes utiles
 
 ```bash
 # Suivre les logs de l'Initializer
-docker compose logs -f backend | grep -i "initializer\|ERROR\|WARN"
+docker compose logs -f backend 2>&1 | grep -E "Initializer|ERROR|WARN"
+
+# Redémarrer le backend seulement (pour recharger la configuration)
+docker compose restart backend
 
 # Repartir d'une base propre (supprime toutes les données)
-docker compose down -v && docker compose up -d
+docker compose down && docker volume rm openmrs-mauritanie_openmrs-data openmrs-mauritanie_db-data && docker compose up -d
 
-# Utiliser un tag d'image précis
-TAG=3.7.0 docker compose up -d
+# Vérifier les erreurs de chargement de configuration
+docker compose logs backend 2>&1 | grep -A 6 "could not be constructed"
 ```
 
-## Variables d'environnement
+## Architecture
+
+### Images Docker
+
+| Service | Image | Version |
+|---|---|---|
+| Reverse proxy | `openmrs/openmrs-reference-application-3-gateway` | `3.6.0` |
+| Frontend SPA | `openmrs/openmrs-reference-application-3-frontend` | `3.6.0` |
+| Backend OpenMRS | Image custom basée sur `openmrs-reference-application-3-backend` | `3.6.0` |
+| Base de données | `mariadb` | `10.11.7` |
+
+L'image backend est construite via le `Dockerfile` local qui supprime les configurations de la référenceapplication pour ne charger que la configuration mauritanienne.
+
+### Variables d'environnement
 
 | Variable | Défaut | Description |
 |---|---|---|
-| `TAG` | `qa` | Tag des images OpenMRS 3 |
 | `OMRS_DB_USER` | `openmrs` | Utilisateur base de données |
 | `OMRS_DB_PASSWORD` | `openmrs` | Mot de passe base de données |
 | `MYSQL_ROOT_PASSWORD` | `openmrs` | Mot de passe root MariaDB |
 
-## Stack technique
+### Notes sur le déploiement multi-sites
 
-| Service | Image |
-|---|---|
-| Reverse proxy | `openmrs/openmrs-reference-application-3-gateway` |
-| Frontend SPA | `openmrs/openmrs-reference-application-3-frontend` |
-| Backend OpenMRS | `openmrs/openmrs-reference-application-3-backend` |
-| Base de données | `mariadb:10.11.7` |
+Cette configuration est conçue pour le développement avec tous les centres de santé dans une seule instance. Pour un déploiement en production, l'architecture recommandée est **une instance par FOSA** avec synchronisation vers un serveur central, afin de garantir le fonctionnement en mode hors-ligne dans les zones à connectivité limitée.
