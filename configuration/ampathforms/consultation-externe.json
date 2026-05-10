@@ -8,64 +8,6 @@
   "encounter": "Consultation",
   "pages": [
     {
-      "label": "Informations de visite",
-      "sections": [
-        {
-          "label": "Détails",
-          "isExpanded": true,
-          "questions": [
-            {
-              "label": "Date de la consultation",
-              "type": "encounterDatetime",
-              "questionOptions": {
-                "rendering": "datetime"
-              },
-              "required": true,
-              "id": "encDate"
-            },
-            {
-              "label": "Lieu de consultation",
-              "type": "encounterLocation",
-              "questionOptions": {
-                "rendering": "ui-select-extended"
-              },
-              "required": true,
-              "id": "location"
-            },
-            {
-              "label": "Type de consultation",
-              "type": "obs",
-              "id": "visitType",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "164181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "answers": [
-                  {
-                    "concept": "164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Nouvelle consultation (NC)"
-                  },
-                  {
-                    "concept": "160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Ancienne consultation (AC)"
-                  }
-                ]
-              }
-            },
-            {
-              "label": "Distance de provenance",
-              "type": "obs",
-              "id": "provenance",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "c1b87f83-0cf4-4c86-919d-cacb6cbc33db"
-              },
-              "questionInfo": "≤ 5 km ou > 5 km"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "label": "Consultation",
       "sections": [
         {

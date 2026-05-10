@@ -71,41 +71,6 @@
               }
             }
           ]
-        },
-        {
-          "label": "Provenance",
-          "isExpanded": true,
-          "questions": [
-            {
-              "label": "Distance ≤ 5 km (nombre)",
-              "type": "obs",
-              "id": "provenance_lte_5km",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "c3d4e5f6-3333-3333-3333-000000000003",
-                "min": "0"
-              }
-            },
-            {
-              "label": "Distance > 5 km (nombre)",
-              "type": "obs",
-              "id": "provenance_gt_5km",
-              "questionOptions": {
-                "rendering": "number",
-                "concept": "c3d4e5f6-3333-3333-3333-000000000004",
-                "min": "0"
-              }
-            },
-            {
-              "label": "Localité / Quartier",
-              "type": "obs",
-              "id": "localite_quartier",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "c3d4e5f6-3333-3333-3333-000000000005"
-              }
-            }
-          ]
         }
       ]
     },

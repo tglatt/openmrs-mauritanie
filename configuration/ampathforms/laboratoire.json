@@ -225,35 +225,6 @@
           ]
         }
       ]
-    },
-    {
-      "label": "Autres examens",
-      "sections": [
-        {
-          "label": "Autres examens",
-          "isExpanded": true,
-          "questions": [
-            {
-              "label": "Examen",
-              "type": "obs",
-              "id": "autre_examen",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "a1b2c3d4-1111-1111-1111-000000000010"
-              }
-            },
-            {
-              "label": "Résultats",
-              "type": "obs",
-              "id": "autres_resultats",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "a1b2c3d4-1111-1111-1111-000000000011"
-              }
-            }
-          ]
-        }
-      ]
     }
   ]
 }
