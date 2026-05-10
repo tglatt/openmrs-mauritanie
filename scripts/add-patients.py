@@ -35,9 +35,6 @@ NOMS_DE_FAMILLE = [
 
 LOCATIONS = [
     "ba583e51-0eb2-4f78-b116-4d82822f910c",  # Centre de Santé de Néma
-    "98054f8e-65fc-4e6e-9281-610475699c41",  # Centre de Santé de Bassikounou
-    "605e705a-85d6-4612-bc07-213bd01cf6d3",  # Centre de Santé de Timbedra
-    "3fb596aa-a628-4d5d-b10a-c07e58c1c8f0",  # Hôpital Régional de Néma
 ]
 
 
