@@ -36,4 +36,4 @@ d4e5f6a7-4444-4444-4444-000000000008,false,,Oriented to postnatal care,Orientée
 d4e5f6a7-4444-4444-4444-000000000009,false,,Mother referral reason,Motif référence mère,Motif réf mère,Motif de référence de la mère,Finding,Text
 d4e5f6a7-4444-4444-4444-000000000010,false,,Maternal death cause,Cause décès maternel,Cause DCD mère,Cause du décès maternel,Finding,Text
 d4e5f6a7-4444-4444-4444-000000000011,false,,Deliverer grade,Grade de l'accoucheur,Grade accoucheur,Grade/qualification de l'accoucheur,Finding,Text
-163042AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163042,Clinical notes,Observations accouchement,Observations,Observations cliniques lors de l'accouchement,Finding,Text
+163042AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163042,Delivery clinical notes,Observations accouchement,Observations,Observations cliniques lors de l'accouchement,Finding,Text
