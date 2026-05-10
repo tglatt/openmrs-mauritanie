@@ -1,0 +1,6 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+f4620bfa-3625-4883-bd3f-84c2cce14470,false,,Normal,Normal,Normal,Priorité normale de la file d'attente,Misc,N/A
+04f6f7e0-e3cb-4e13-a133-4479f759574e,false,,Urgent,Urgent,Urgent,Priorité urgente de la file d'attente,Misc,N/A
+51ae5e4d-b72b-4912-bf31-a17efb690aeb,false,,Waiting,En attente,Attente,Patient en attente dans la file,Misc,N/A
+ca7494ae-437f-4fd0-8aae-b88b9a2ba47d,false,,In Service,En consultation,En cours,Patient en cours de consultation,Misc,N/A
+b559fb77-4e1e-4285-b9b7-1d03e0ba983f,false,,Finished,Terminé,Terminé,Consultation terminée,Misc,N/A

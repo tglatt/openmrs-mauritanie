@@ -1,2 +1,4 @@
 Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config
 ,false,Location,Code FOSA,Code officiel de la formation sanitaire,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+aac48226-d143-4274-80e0-264db4e368ee,false,Visit,Insurance Policy Number,,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+57ea0cbb-064f-4d09-8cf4-e8228700491c,false,Visit,Punctuality,,0,1,org.openmrs.customdatatype.datatype.ConceptDatatype,d81d4698-e78c-420d-aac5-cb1f606fb32e,,,
