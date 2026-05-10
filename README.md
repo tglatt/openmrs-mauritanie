@@ -1,16 +1,16 @@
 # OpenMRS Mauritanie
 
-Instance OpenMRS 3 configurée pour la gestion des centres de santé mauritaniens.
+Instance OpenMRS 3 configurée pour le Centre de Santé de Néma (Mauritanie).
 
 ## Fonctionnalités
 
 - Interface en français (support arabe prévu)
-- Hiérarchie d'adresses : Wilaya → Moughataa → Commune (15 wilayas, toutes moughataas)
-- Localisations : 100+ centres de santé et hôpitaux avec codes FOSA
+- Hiérarchie géographique : Mauritanie → Hodh Ech Chargui → Néma → Centre de Santé de Néma
 - Identifiant patient : NNI (Numéro National d'Identité, 10 chiffres, unique)
 - Types de consultation liés aux registres du Ministère de la Santé
 - Concepts médicaux CIEL + concepts spécifiques Mauritanie
 - File d'attente (Triage / Consultation) avec priorités et statuts
+- Rendez-vous : 4 services (Consultation Externe, CPN, Vaccination, PF) avec 9 types
 - Modes de paiement adaptés (Espèces, Mobile Money, CNAM, etc.)
 - Formulaires O3 : Consultation Externe
 - Configuration chargée automatiquement via Initializer au démarrage
@@ -25,13 +25,20 @@ openmrs-mauritanie/
 ├── assets/
 │   └── logo-msas.png                       # Logo Ministère de la Santé
 ├── scripts/
-│   └── add-patients.py                     # Script création de patients fictifs
+│   ├── add-patients.py                     # Crée 100 patients fictifs mauritaniens
+│   └── add-visits-appointments.py          # Crée 10 visites actives + 100 RDV (semaine à venir)
 └── configuration/                          # Chargée par Initializer au démarrage
     ├── addresshierarchy/
     │   ├── addressConfiguration.xml        # Niveaux : Pays > Wilaya > Moughataa > Commune
     │   └── addresshierarchy.csv            # ~140 entrées géographiques
     ├── ampathforms/
     │   └── consultation-externe.json       # Formulaire O3 consultation externe
+    ├── appointmentservicedefinitions/
+    │   └── service_definitions.csv         # 4 services au Centre de Santé de Néma
+    ├── appointmentservicetypes/
+    │   └── service_types.csv               # 9 types de RDV
+    ├── appointmentspecialities/
+    │   └── specialities.csv                # Spécialité : Soins de Santé Primaires
     ├── attributetypes/
     │   └── attributetypes.csv              # Code FOSA, Insurance Policy Number, Punctuality
     ├── concepts/
@@ -45,7 +52,7 @@ openmrs-mauritanie/
     ├── globalproperties/
     │   └── globalproperties.xml            # Locale fr, pays MR, NNI par défaut, queues
     ├── locations/
-    │   └── locations.csv                   # Wilayas, moughataas, hôpitaux, CS avec codes FOSA
+    │   └── locations.csv                   # Mauritanie > Hodh Ech Chargui > Néma > CS Néma
     ├── patientidentifiertypes/
     │   └── patientidentifiertypes.csv      # NNI (10 chiffres, unique)
     ├── paymentmodes/
@@ -57,7 +64,7 @@ openmrs-mauritanie/
     ├── roles/
     │   └── roles.csv
     └── visittypes/
-        └── visittypes.csv
+        └── visittypes.csv                  # Facility Visit, OPD Visit
 ```
 
 ## Registres configurés
@@ -75,6 +82,15 @@ openmrs-mauritanie/
 | 09 | Urgences Obstétricales | Urgences Obstétricales |
 | 10 | Décès Maternels et Néonataux | Décès Maternel et Néonatal |
 
+## Services de rendez-vous
+
+| Service | Types de RDV |
+|---|---|
+| Consultation Externe | Nouvelle consultation, Suivi, Urgence |
+| CPN | 1ère CPN, CPN de suivi |
+| Vaccination | Primo-vaccination, Rappel |
+| Planification Familiale | Initiation PF, Suivi PF |
+
 ## Modes de paiement
 
 | Mode | Description |
@@ -89,7 +105,7 @@ openmrs-mauritanie/
 ## Prérequis
 
 - Docker et Docker Compose
-- Python 3 (pour le script de données fictives)
+- Python 3 (pour les scripts de données fictives)
 
 ## Démarrage
 
@@ -108,8 +124,11 @@ La configuration est importée automatiquement par l'Initializer (~15 min au pre
 ## Données de test
 
 ```bash
-# Créer 100 patients fictifs mauritaniens
+# 1. Créer 100 patients fictifs mauritaniens
 python3 scripts/add-patients.py
+
+# 2. Créer 10 visites actives + 100 RDV sur la semaine à venir
+python3 scripts/add-visits-appointments.py
 ```
 
 ## Commandes utiles
@@ -118,7 +137,7 @@ python3 scripts/add-patients.py
 # Suivre les logs de l'Initializer
 docker compose logs -f backend 2>&1 | grep -E "Initializer|ERROR|WARN"
 
-# Redémarrer le backend seulement (pour recharger la configuration)
+# Redémarrer le backend seulement (pour recharger la configuration sans vider la DB)
 docker compose restart backend
 
 # Repartir d'une base propre (supprime toutes les données)
@@ -151,4 +170,4 @@ L'image backend est construite via le `Dockerfile` local qui supprime les config
 
 ### Notes sur le déploiement multi-sites
 
-Cette configuration est conçue pour le développement avec tous les centres de santé dans une seule instance. Pour un déploiement en production, l'architecture recommandée est **une instance par FOSA** avec synchronisation vers un serveur central, afin de garantir le fonctionnement en mode hors-ligne dans les zones à connectivité limitée.
+Cette configuration est conçue pour le développement avec **une seule FOSA** (Centre de Santé de Néma). Pour un déploiement en production, l'architecture recommandée est **une instance par FOSA** avec synchronisation vers un serveur central, afin de garantir le fonctionnement en mode hors-ligne dans les zones à connectivité limitée (Hodh, Tagant, Adrar…).
