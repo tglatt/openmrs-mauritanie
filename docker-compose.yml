@@ -26,7 +26,8 @@ services:
       - ./assets/logo-msas.png:/usr/share/nginx/html/logo-msas.png:ro
 
   backend:
-    image: openmrs/openmrs-reference-application-3-backend:${TAG:-3.0.0}
+    build: .
+    image: openmrs-mauritanie-backend
     restart: "unless-stopped"
     depends_on:
       - db
