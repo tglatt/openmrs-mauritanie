@@ -1,83 +1,52 @@
 <addressConfiguration>
 
+    <wipe>true</wipe>
+
     <addressComponents>
 
         <addressComponent>
-            <field>country</field>
-            <nameMappings>
-                <nameMapping code="en" name="Country"/>
-                <nameMapping code="fr" name="Pays"/>
-            </nameMappings>
-            <sizeMappings>
-                <sizeMapping code="full" size="40"/>
-                <sizeMapping code="standard" size="40"/>
-            </sizeMappings>
-            <lineByLineFormat>4</lineByLineFormat>
-            <elementDefault>Mauritanie</elementDefault>
+            <field>COUNTRY</field>
+            <nameMapping>Pays</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
 
         <addressComponent>
-            <field>stateProvince</field>
-            <nameMappings>
-                <nameMapping code="en" name="Wilaya"/>
-                <nameMapping code="fr" name="Wilaya"/>
-            </nameMappings>
-            <sizeMappings>
-                <sizeMapping code="full" size="40"/>
-                <sizeMapping code="standard" size="40"/>
-            </sizeMappings>
-            <lineByLineFormat>3</lineByLineFormat>
+            <field>STATE_PROVINCE</field>
+            <nameMapping>Wilaya</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
 
         <addressComponent>
-            <field>countyDistrict</field>
-            <nameMappings>
-                <nameMapping code="en" name="Moughataa"/>
-                <nameMapping code="fr" name="Moughataa"/>
-            </nameMappings>
-            <sizeMappings>
-                <sizeMapping code="full" size="40"/>
-                <sizeMapping code="standard" size="40"/>
-            </sizeMappings>
-            <lineByLineFormat>2</lineByLineFormat>
+            <field>COUNTY_DISTRICT</field>
+            <nameMapping>Moughataa</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
 
         <addressComponent>
-            <field>cityVillage</field>
-            <nameMappings>
-                <nameMapping code="en" name="Commune"/>
-                <nameMapping code="fr" name="Commune"/>
-            </nameMappings>
-            <sizeMappings>
-                <sizeMapping code="full" size="40"/>
-                <sizeMapping code="standard" size="40"/>
-            </sizeMappings>
-            <lineByLineFormat>1</lineByLineFormat>
+            <field>CITY_VILLAGE</field>
+            <nameMapping>Commune</nameMapping>
+            <sizeMapping>40</sizeMapping>
+            <requiredInHierarchy>true</requiredInHierarchy>
         </addressComponent>
 
         <addressComponent>
-            <field>address1</field>
-            <nameMappings>
-                <nameMapping code="en" name="Address"/>
-                <nameMapping code="fr" name="Adresse"/>
-            </nameMappings>
-            <sizeMappings>
-                <sizeMapping code="full" size="60"/>
-                <sizeMapping code="standard" size="60"/>
-            </sizeMappings>
-            <lineByLineFormat>1</lineByLineFormat>
+            <field>ADDRESS_1</field>
+            <nameMapping>Adresse</nameMapping>
+            <sizeMapping>60</sizeMapping>
+            <requiredInHierarchy>false</requiredInHierarchy>
         </addressComponent>
 
     </addressComponents>
 
-    <elementDefaults>
-        <elementDefault>
-            <field>country</field>
-            <defaultValue>Mauritanie</defaultValue>
-        </elementDefault>
-    </elementDefaults>
-
-    <manualEntryEnabled>true</manualEntryEnabled>
+    <lineByLineFormat>
+        <string>cityVillage</string>
+        <string>countyDistrict</string>
+        <string>stateProvince</string>
+        <string>country</string>
+    </lineByLineFormat>
 
     <addressHierarchyFile>
         <filename>addresshierarchy.csv</filename>
