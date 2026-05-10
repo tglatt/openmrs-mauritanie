@@ -1,0 +1,10 @@
+Void/Retire,UUID,Name,Service definition,Duration
+false,1d4799bd-a2ad-4159-a389-47bfa13fc6aa,Nouvelle consultation,69ed267f-9e5d-4a2e-93ff-47b555781797,30
+false,7b0c0290-2d8c-4928-8b89-819c6a3f692c,Suivi,69ed267f-9e5d-4a2e-93ff-47b555781797,30
+false,2cdb0780-6f94-4e4e-a171-7bdaa565f339,Urgence,69ed267f-9e5d-4a2e-93ff-47b555781797,30
+false,bab6641e-b092-4b1f-b2e6-a2ef15910ff1,1ère CPN,33904042-96a5-4d00-a558-ea0006126f2e,30
+false,0fc80aee-e5d5-4c4e-9474-eb94fbf6c8a4,CPN de suivi,33904042-96a5-4d00-a558-ea0006126f2e,30
+false,3097f591-4a40-45ca-ab34-b5f549eb6610,Primo-vaccination,894c0534-a604-40e7-8a26-e3c66e6728e1,30
+false,5b3adf52-bb7a-42d1-95cf-dc011a7cf56c,Rappel,894c0534-a604-40e7-8a26-e3c66e6728e1,30
+false,a1c65c3b-2e7d-4169-9c4f-e81e7a7fc74f,Initiation PF,fe4f06d1-920f-4c86-b226-37a079f99400,30
+false,17913d7f-b8bd-4629-96c5-769f17915979,Suivi PF,fe4f06d1-920f-4c86-b226-37a079f99400,30
