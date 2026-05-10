@@ -1,0 +1,269 @@
+{
+  "name": "Registre Accouchement",
+  "description": "Registre des Accouchements - Centre de Santé de Néma",
+  "version": "1",
+  "published": true,
+  "uuid": "0c6f3g5d-4e7h-6i1f-d5g8-9h0a1b2c4g5h",
+  "retired": false,
+  "encounter": "Accouchement",
+  "pages": [
+    {
+      "label": "Antécédents obstétricaux",
+      "sections": [
+        {
+          "label": "Antécédents",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Gestité",
+              "type": "obs",
+              "id": "gestite",
+              "questionOptions": { "rendering": "number", "concept": "1053AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Parité",
+              "type": "obs",
+              "id": "parite",
+              "questionOptions": { "rendering": "number", "concept": "1054AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Fausses couches",
+              "type": "obs",
+              "id": "fausse_couche",
+              "questionOptions": { "rendering": "number", "concept": "1757AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Enfants précédents vivants",
+              "type": "obs",
+              "id": "enfants_vivant",
+              "questionOptions": { "rendering": "number", "concept": "1779AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Enfants précédents décédés",
+              "type": "obs",
+              "id": "enfants_dcd",
+              "questionOptions": { "rendering": "number", "concept": "1416AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Nombre de CPN reçues",
+              "type": "obs",
+              "id": "cpn_nombre",
+              "questionOptions": { "rendering": "number", "concept": "1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0", "max": "10" }
+            },
+            {
+              "label": "Td2+ reçu",
+              "type": "obs",
+              "id": "td2plus",
+              "questionOptions": { "rendering": "toggle", "concept": "159856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Déroulement de l'accouchement",
+      "sections": [
+        {
+          "label": "Accouchement",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Date et heure de l'accouchement",
+              "type": "obs",
+              "id": "date_heure_accouchement",
+              "questionOptions": { "rendering": "datetime", "concept": "163460AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Partogramme utilisé",
+              "type": "obs",
+              "id": "partogramme",
+              "questionOptions": { "rendering": "toggle", "concept": "159616AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Mode d'accouchement",
+              "type": "obs",
+              "id": "mode_accouchement",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "5599AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  { "concept": "1170AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Eutocique (voie basse normale)" },
+                  { "concept": "1171AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Dystocique — Césarienne" },
+                  { "concept": "d4e5f6a7-4444-4444-4444-000000000001", "label": "Dystocique — Ventouse" },
+                  { "concept": "d4e5f6a7-4444-4444-4444-000000000002", "label": "Dystocique — Autres" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Nouveau-né",
+      "sections": [
+        {
+          "label": "Caractéristiques",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Type de naissance",
+              "type": "obs",
+              "id": "type_naissance",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1568AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  { "concept": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Unique" },
+                  { "concept": "1396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Multiple" }
+                ]
+              }
+            },
+            {
+              "label": "Nombre de nouveau-nés (si multiple)",
+              "type": "obs",
+              "id": "nne_multiple_nombre",
+              "questionOptions": { "rendering": "number", "concept": "1566AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Nombre de garçons",
+              "type": "obs",
+              "id": "nne_sexe_m",
+              "questionOptions": { "rendering": "number", "concept": "1528AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "min": "0" }
+            },
+            {
+              "label": "Nombre de filles",
+              "type": "obs",
+              "id": "nne_sexe_f",
+              "questionOptions": { "rendering": "number", "concept": "d4e5f6a7-4444-4444-4444-000000000003", "min": "0" }
+            },
+            {
+              "label": "À terme",
+              "type": "obs",
+              "id": "nne_a_terme",
+              "questionOptions": { "rendering": "toggle", "concept": "159591AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Prématuré",
+              "type": "obs",
+              "id": "nne_premature",
+              "questionOptions": { "rendering": "toggle", "concept": "159590AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Hypotrophie (< 2500g)",
+              "type": "obs",
+              "id": "nne_hypotrophie",
+              "questionOptions": { "rendering": "toggle", "concept": "159604AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            }
+          ]
+        },
+        {
+          "label": "Issue de la naissance",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Nouveau-né vivant",
+              "type": "obs",
+              "id": "nne_vivant",
+              "questionOptions": { "rendering": "toggle", "concept": "159603AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Mort-né macéré",
+              "type": "obs",
+              "id": "nne_mort_ne_macere",
+              "questionOptions": { "rendering": "toggle", "concept": "d4e5f6a7-4444-4444-4444-000000000004" }
+            },
+            {
+              "label": "Mort-né frais",
+              "type": "obs",
+              "id": "nne_mort_ne_frais",
+              "questionOptions": { "rendering": "toggle", "concept": "135436AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Réanimé en salle",
+              "type": "obs",
+              "id": "nne_reanime_salle",
+              "questionOptions": { "rendering": "toggle", "concept": "159928AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Décès en salle de naissance",
+              "type": "obs",
+              "id": "nne_deces_salle",
+              "questionOptions": { "rendering": "toggle", "concept": "d4e5f6a7-4444-4444-4444-000000000005" }
+            },
+            {
+              "label": "Décès ≤ 24h",
+              "type": "obs",
+              "id": "nne_deces_lt24h",
+              "questionOptions": { "rendering": "toggle", "concept": "d4e5f6a7-4444-4444-4444-000000000006" }
+            },
+            {
+              "label": "Motif de référence du nouveau-né",
+              "type": "obs",
+              "id": "nne_ref_motifs",
+              "questionOptions": { "rendering": "text", "concept": "d4e5f6a7-4444-4444-4444-000000000007" }
+            },
+            {
+              "label": "Mis au sein dans l'heure",
+              "type": "obs",
+              "id": "nne_mis_au_sein",
+              "questionOptions": { "rendering": "toggle", "concept": "159854AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sortie et suivi de la mère",
+      "sections": [
+        {
+          "label": "Sortie",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Date et heure de sortie",
+              "type": "obs",
+              "id": "date_heure_sortie",
+              "questionOptions": { "rendering": "datetime", "concept": "163730AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            },
+            {
+              "label": "Orientée en post-natal",
+              "type": "obs",
+              "id": "orientee_postnatal",
+              "questionOptions": { "rendering": "toggle", "concept": "d4e5f6a7-4444-4444-4444-000000000008" }
+            },
+            {
+              "label": "Motif de référence de la mère",
+              "type": "obs",
+              "id": "ref_mere_motifs",
+              "questionOptions": { "rendering": "text", "concept": "d4e5f6a7-4444-4444-4444-000000000009" }
+            },
+            {
+              "label": "Cause du décès maternel",
+              "type": "obs",
+              "id": "deces_mere_cause",
+              "questionOptions": { "rendering": "text", "concept": "d4e5f6a7-4444-4444-4444-000000000010" }
+            }
+          ]
+        },
+        {
+          "label": "Accoucheur et observations",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Grade de l'accoucheur",
+              "type": "obs",
+              "id": "grade_accoucheur",
+              "questionOptions": { "rendering": "text", "concept": "d4e5f6a7-4444-4444-4444-000000000011" }
+            },
+            {
+              "label": "Observations",
+              "type": "obs",
+              "id": "observations",
+              "questionOptions": { "rendering": "textarea", "concept": "163042AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

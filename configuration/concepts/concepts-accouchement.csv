@@ -1,0 +1,39 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+1053AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1053,Gravida,Gestité,Gestité,Nombre total de grossesses,Finding,Numeric
+1054AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1054,Parity,Parité,Parité,Nombre d'accouchements antérieurs,Finding,Numeric
+1757AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1757,Number of spontaneous abortions,Fausses couches,FC,Nombre de fausses couches antérieures,Finding,Numeric
+1779AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1779,Number of living children,Enfants vivants,Enf. vivants,Nombre d'enfants en vie,Finding,Numeric
+1416AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1416,Number of deceased children,Enfants décédés,Enf. DCD,Nombre d'enfants décédés,Finding,Numeric
+1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1427,Antenatal care visit number,Nombre de CPN reçues,Nb CPN,Nombre de consultations prénatales reçues,Finding,Numeric
+159856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159856,Tetanus dose number,Td2+,Td2+,Vaccination tétanos Td2 ou plus reçue,Finding,Boolean
+163460AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163460,Delivery datetime,Date et heure accouchement,Date accoucht.,Date et heure de l'accouchement,Finding,Datetime
+159616AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159616,Partograph used,Partogramme utilisé,Partogramme,Partogramme utilisé lors de l'accouchement,Finding,Boolean
+5599AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5599,Delivery method,Mode d'accouchement,Mode accoucht.,Mode d'accouchement,Finding,Coded
+1170AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1170,Spontaneous vaginal delivery,Accouchement eutocique,Eutocique,Accouchement par voie basse normal,Misc,N/A
+1171AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1171,Caesarean section,Césarienne,Césarienne,Accouchement par césarienne,Misc,N/A
+d4e5f6a7-4444-4444-4444-000000000001,false,,Vacuum delivery,Ventouse,Ventouse,Accouchement par ventouse,Misc,N/A
+d4e5f6a7-4444-4444-4444-000000000002,false,,Other delivery method,Autre mode accouchement,Autre mode,Autre mode d'accouchement dystocique,Misc,N/A
+1568AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1568,Birth order,Type de naissance,Type naissance,Naissance unique ou multiple,Finding,Coded
+1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1067,Unknown,Unique,Unique,Naissance unique,Misc,N/A
+1396AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1396,Multiple gestation,Multiple,Multiple,Naissance multiple,Misc,N/A
+1566AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1566,Number of neonates,Nombre de nouveau-nés,Nb nouveau-nés,Nombre de nouveau-nés (naissances multiples),Finding,Numeric
+1528AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1528,Sex of baby,Sexe nouveau-né masculin (nb),NNé M,Nombre de nouveau-nés de sexe masculin,Finding,Numeric
+d4e5f6a7-4444-4444-4444-000000000003,false,,Number of female neonates,Sexe nouveau-né féminin (nb),NNé F,Nombre de nouveau-nés de sexe féminin,Finding,Numeric
+159591AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159591,Neonate at term,Nouveau-né à terme,À terme,Nouveau-né né à terme,Finding,Boolean
+159590AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159590,Premature birth,Prématuré,Prématuré,Nouveau-né prématuré,Finding,Boolean
+5916AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5916,Birth weight,Poids naissance,Poids naissance,Poids du nouveau-né à la naissance,Finding,Numeric
+159604AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159604,Low birth weight,Hypotrophie (< 2500g),Hypotrophie,Nouveau-né avec petit poids de naissance (< 2500g),Finding,Boolean
+159603AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159603,Live birth,Nouveau-né vivant,Vivant,Nouveau-né né vivant,Finding,Boolean
+135436AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:135436,Fresh stillbirth,Mort-né frais,Mort-né frais,Nouveau-né mort-né frais,Finding,Boolean
+d4e5f6a7-4444-4444-4444-000000000004,false,,Macerated stillbirth,Mort-né macéré,Mort-né macéré,Nouveau-né mort-né macéré,Finding,Boolean
+159928AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159928,Neonatal resuscitation performed,Réanimation néonatale en salle,Réanimé salle,Réanimation néonatale pratiquée en salle de naissance,Finding,Boolean
+d4e5f6a7-4444-4444-4444-000000000005,false,,Neonatal death in delivery room,Décès nouveau-né en salle,DCD NNé salle,Décès du nouveau-né survenu en salle de naissance,Finding,Boolean
+d4e5f6a7-4444-4444-4444-000000000006,false,,Neonatal death within 24h,Décès nouveau-né ≤ 24h,DCD NNé 24h,Décès du nouveau-né dans les 24 premières heures,Finding,Boolean
+d4e5f6a7-4444-4444-4444-000000000007,false,,Neonate referral reason,Motif référence nouveau-né,Motif réf NNé,Motif de référence du nouveau-né,Finding,Text
+159854AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159854,Breastfeeding within one hour,Mis au sein dans l'heure,Allaitement 1h,Nouveau-né mis au sein dans l'heure suivant la naissance,Finding,Boolean
+163730AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163730,Discharge datetime,Date et heure sortie mère,Date sortie,Date et heure de sortie de la mère,Finding,Datetime
+d4e5f6a7-4444-4444-4444-000000000008,false,,Oriented to postnatal care,Orientée en post-natal,Post-natal,Mère orientée vers les soins post-natals,Finding,Boolean
+d4e5f6a7-4444-4444-4444-000000000009,false,,Mother referral reason,Motif référence mère,Motif réf mère,Motif de référence de la mère,Finding,Text
+d4e5f6a7-4444-4444-4444-000000000010,false,,Maternal death cause,Cause décès maternel,Cause DCD mère,Cause du décès maternel,Finding,Text
+d4e5f6a7-4444-4444-4444-000000000011,false,,Deliverer grade,Grade de l'accoucheur,Grade accoucheur,Grade/qualification de l'accoucheur,Finding,Text
+163042AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163042,Clinical notes,Observations accouchement,Observations,Observations cliniques lors de l'accouchement,Finding,Text

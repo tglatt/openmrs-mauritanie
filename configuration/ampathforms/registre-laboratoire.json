@@ -1,0 +1,259 @@
+{
+  "name": "Registre Laboratoire",
+  "description": "Registre de laboratoire - Centre de Santé de Néma",
+  "version": "1",
+  "published": true,
+  "uuid": "7f3c9d2a-1b4e-4f8c-a2d5-6e7f8a9b0c1d",
+  "retired": false,
+  "encounter": "Lab Results",
+  "pages": [
+    {
+      "label": "Hématologie",
+      "sections": [
+        {
+          "label": "Hématologie",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Hémoglobine (HB) g/dL",
+              "type": "obs",
+              "id": "hb",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "21AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "max": "25"
+              }
+            },
+            {
+              "label": "TPHA (Syphilis)",
+              "type": "obs",
+              "id": "tpha",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1649AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  { "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Positif" },
+                  { "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Négatif" }
+                ]
+              }
+            },
+            {
+              "label": "Hépatite B (HBsAg)",
+              "type": "obs",
+              "id": "hbsag",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1322AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  { "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Positif" },
+                  { "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Négatif" }
+                ]
+              }
+            },
+            {
+              "label": "Cellules anormales",
+              "type": "obs",
+              "id": "cellules_anormales",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000005"
+              }
+            },
+            {
+              "label": "Autres (hématologie)",
+              "type": "obs",
+              "id": "autres_hemato",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000006"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Bactériologie",
+      "sections": [
+        {
+          "label": "Bactériologie",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Gram",
+              "type": "obs",
+              "id": "gram",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000001"
+              }
+            },
+            {
+              "label": "Culture",
+              "type": "obs",
+              "id": "culture",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000002"
+              }
+            },
+            {
+              "label": "Autres (bactériologie)",
+              "type": "obs",
+              "id": "autres_bacterio",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000007"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Parasitologie",
+      "sections": [
+        {
+          "label": "Parasitologie",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "TDR Paludisme",
+              "type": "obs",
+              "id": "tdr_palu",
+              "questionOptions": {
+                "rendering": "radio",
+                "concept": "1643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "answers": [
+                  { "concept": "703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Positif" },
+                  { "concept": "664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "label": "Négatif" }
+                ]
+              }
+            },
+            {
+              "label": "Schistosomiase",
+              "type": "obs",
+              "id": "schisto",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000003"
+              }
+            },
+            {
+              "label": "Amibe",
+              "type": "obs",
+              "id": "amibe",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000004"
+              }
+            },
+            {
+              "label": "Autres (parasitologie)",
+              "type": "obs",
+              "id": "autres_parasito",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000008"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Biochimie",
+      "sections": [
+        {
+          "label": "Biochimie",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Glycémie (mg/dL)",
+              "type": "obs",
+              "id": "glycemie",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "max": "600"
+              }
+            },
+            {
+              "label": "Créatinémie (µmol/L)",
+              "type": "obs",
+              "id": "creatinine",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "790AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "max": "2000"
+              }
+            },
+            {
+              "label": "Cholestérol total (mg/dL)",
+              "type": "obs",
+              "id": "cholesterol_total",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "1006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "max": "500"
+              }
+            },
+            {
+              "label": "LDL Cholestérol (mg/dL)",
+              "type": "obs",
+              "id": "ldl_cholesterol",
+              "questionOptions": {
+                "rendering": "number",
+                "concept": "1007AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "min": "0",
+                "max": "400"
+              }
+            },
+            {
+              "label": "Autres (biochimie)",
+              "type": "obs",
+              "id": "autres_biochimie",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000009"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Autres examens",
+      "sections": [
+        {
+          "label": "Autres examens",
+          "isExpanded": true,
+          "questions": [
+            {
+              "label": "Examen",
+              "type": "obs",
+              "id": "autre_examen",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000010"
+              }
+            },
+            {
+              "label": "Résultats",
+              "type": "obs",
+              "id": "autres_resultats",
+              "questionOptions": {
+                "rendering": "text",
+                "concept": "a1b2c3d4-1111-1111-1111-000000000011"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

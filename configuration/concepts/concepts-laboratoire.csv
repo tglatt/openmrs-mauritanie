@@ -1,0 +1,19 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+21AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:21,Hemoglobin,Hémoglobine,HB,Taux d'hémoglobine,Test,Numeric
+1649AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1649,Syphilis test result,Résultat TPHA,TPHA,Résultat du test TPHA,Test,Text
+1322AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1322,Hepatitis B surface antigen,Antigène HBs,HBs,Résultat de l'antigène HBs,Test,Text
+887AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:887,Blood glucose,Glycémie,Glycémie,Taux de glucose sanguin,Test,Numeric
+790AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:790,Serum creatinine,Créatinémie,Créatinine,Taux de créatinine sérique,Test,Numeric
+1006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1006,Total cholesterol,Cholestérol total,Cholestérol,Taux de cholestérol total,Test,Numeric
+1007AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1007,LDL cholesterol,LDL Cholestérol,LDL,Taux de LDL cholestérol,Test,Numeric
+a1b2c3d4-1111-1111-1111-000000000001,false,,Gram stain result,Résultat Gram,Gram,Résultat coloration de Gram,Test,Text
+a1b2c3d4-1111-1111-1111-000000000002,false,,Culture result,Résultat culture,Culture,Résultat culture bactériologique,Test,Text
+a1b2c3d4-1111-1111-1111-000000000003,false,,Schistosomiasis test result,Résultat schistosomiase,Schisto,Résultat test schistosomiase,Test,Text
+a1b2c3d4-1111-1111-1111-000000000004,false,,Amoeba test result,Résultat amibes,Amibe,Résultat test amibes,Test,Text
+a1b2c3d4-1111-1111-1111-000000000005,false,,Abnormal cells,Cellules anormales,Cell. anorm.,Présence de cellules anormales,Test,Text
+a1b2c3d4-1111-1111-1111-000000000006,false,,Other hematology result,Autres hématologie,Autres hémato.,Autres résultats hématologiques,Test,Text
+a1b2c3d4-1111-1111-1111-000000000007,false,,Other bacteriology result,Autres bactériologie,Autres bactério.,Autres résultats bactériologiques,Test,Text
+a1b2c3d4-1111-1111-1111-000000000008,false,,Other parasitology result,Autres parasitologie,Autres parasito.,Autres résultats parasitologiques,Test,Text
+a1b2c3d4-1111-1111-1111-000000000009,false,,Other biochemistry result,Autres biochimie,Autres biochim.,Autres résultats biochimiques,Test,Text
+a1b2c3d4-1111-1111-1111-000000000010,false,,Other lab exam,Autre examen laboratoire,Autre examen,Examen laboratoire non classifié,Test,Text
+a1b2c3d4-1111-1111-1111-000000000011,false,,Other lab result,Autre résultat laboratoire,Autre résultat,Résultat laboratoire non classifié,Test,Text

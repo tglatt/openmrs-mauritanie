@@ -1,0 +1,24 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+1427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1427,Antenatal care visit number,Numéro de visite CPN,CPN N°,Numéro de la visite CPN,Finding,Numeric
+1439AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1439,Gestational age,Âge gestationnel (SA),Age gest.,Âge gestationnel en semaines d'aménorrhée,Finding,Numeric
+159427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159427,Urine protein,Protéines urinaires,Protéinurie,Résultat protéines dans les urines,Test,Text
+1325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1325,HIV test result,Résultat test VIH,VIH,Résultat du test VIH,Test,Text
+161557AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:161557,HIV pre-test counseling done,Conseil pré-test VIH effectué,Conseil pré VIH,Conseil pré-test VIH réalisé,Finding,Boolean
+161558AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:161558,HIV post-test counseling done,Conseil post-test VIH effectué,Conseil post VIH,Conseil post-test VIH réalisé,Finding,Boolean
+159882AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159882,Bed net provided,Moustiquaire fournie,Moustiquaire,Moustiquaire imprégnée fournie à la 1ère visite,Finding,Boolean
+984AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:984,Tetanus vaccination,Vaccination tétanos (Td),Td,Vaccination tétanos (Td) administrée,Finding,Coded
+159856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159856,Tetanus dose number,Numéro dose Td,Dose Td,Numéro de la dose de vaccin tétanos administrée,Finding,Numeric
+1586AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1586,Malaria preventive treatment,Traitement préventif intermittent paludisme,TPI,Traitement préventif intermittent paludisme (TPI),Finding,Coded
+159909AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159909,Iron supplementation,Supplémentation en fer,Fer,Supplémentation en fer administrée,Finding,Boolean
+1148AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1148,High-risk pregnancy,Grossesse à risque détectée,Grossesse à risque,Grossesse à risque identifiée lors de la CPN,Finding,Boolean
+160630AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160630,Referred for obstetric care,Référée pour soins obstétricaux,Référée,Patiente référée pour prise en charge de grossesse à risque,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000001,false,,Hepatitis B pre-test counseling,Conseil pré-test HBs effectué,Conseil pré HBs,Conseil pré-test hépatite B réalisé,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000002,false,,Hepatitis B test done,Test HBs réalisé,Test HBs,Test hépatite B réalisé,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000003,false,,Hepatitis B post-test counseling,Conseil post-test HBs effectué,Conseil post HBs,Conseil post-test hépatite B réalisé,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000004,false,,Syphilis pre-test counseling,Conseil pré-test syphilis effectué,Conseil pré Syphilis,Conseil pré-test syphilis réalisé,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000005,false,,Syphilis test done,Test syphilis réalisé,Test syphilis,Test syphilis réalisé,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000006,false,,Syphilis post-test counseling,Conseil post-test syphilis effectué,Conseil post Syphilis,Conseil post-test syphilis réalisé,Finding,Boolean
+b2c3d4e5-2222-2222-2222-000000000007,false,,Urine test 1,Test urine 1,Urine T1,Résultat test urinaire 1,Test,Text
+b2c3d4e5-2222-2222-2222-000000000008,false,,Urine test 2,Test urine 2,Urine T2,Résultat test urinaire 2,Test,Text
+b2c3d4e5-2222-2222-2222-000000000009,false,,Urine test 3,Test urine 3,Urine T3,Résultat test urinaire 3,Test,Text
+b2c3d4e5-2222-2222-2222-000000000010,false,,Urine test 4,Test urine 4,Urine T4,Résultat test urinaire 4,Test,Text

@@ -1,0 +1,30 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+1359AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1359,Family planning method,Méthode contraceptive,Méthode PF,Méthode de planification familiale utilisée,Finding,Coded
+374AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:374,New family planning acceptor,Nouvelle acceptante PF,Nouvelle accept.,Nouvelle acceptante de planification familiale,Finding,Boolean
+162277AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:162277,Post-partum family planning acceptor,Nouvelle acceptante post-partum,Accept. post-partum,Nouvelle acceptante PF en post-partum,Finding,Boolean
+c3d4e5f6-3333-3333-3333-000000000001,false,,Family planning after abortion,Nouvelle acceptante après avortement,Accept. post-avort.,Nouvelle acceptante PF après avortement,Finding,Boolean
+c3d4e5f6-3333-3333-3333-000000000002,false,,New acceptor started method,Nouvelle acceptante mise sous méthode,Mise sous méthode,Nouvelle acceptante ayant démarré une méthode PF,Finding,Boolean
+c3d4e5f6-3333-3333-3333-000000000003,false,,Distance from facility ≤ 5km,Provenance ≤ 5 km,≤ 5 km,Nombre de patientes venant de moins de 5 km,Finding,Numeric
+c3d4e5f6-3333-3333-3333-000000000004,false,,Distance from facility > 5km,Provenance > 5 km,> 5 km,Nombre de patientes venant de plus de 5 km,Finding,Numeric
+c3d4e5f6-3333-3333-3333-000000000005,false,,Patient locality,Localité / Quartier,Localité,Localité ou quartier de provenance de la patiente,Finding,Text
+c3d4e5f6-3333-3333-3333-000000000006,false,,Microgynon cycles,Microgynon (nb cycles),Microgynon,Nombre de cycles de Microgynon dispensés,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000007,false,,Microlut cycles,Microlut (nb cycles),Microlut,Nombre de cycles de Microlut dispensés,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000008,false,,Depo-Provera new,Depo-Provera (nouvelle),Depo NLE,Injection Depo-Provera pour nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000009,false,,Depo-Provera continuing,Depo-Provera (ancienne),Depo ANC,Injection Depo-Provera pour ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000010,false,,Noristrat new,Noristrat (nouvelle),Noristrat NLE,Injection Noristrat pour nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000011,false,,Noristrat continuing,Noristrat (ancienne),Noristrat ANC,Injection Noristrat pour ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000012,false,,Sayana Press new,Sayana Press (nouvelle),Sayana NLE,Injection Sayana Press pour nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000013,false,,Sayana Press continuing,Sayana Press (ancienne),Sayana ANC,Injection Sayana Press pour ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000014,false,,TCu 380 new,TCu 380 (nouvelle),TCu NLE,DIU TCu 380 posé chez nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000015,false,,TCu 380 continuing,TCu 380 (ancienne),TCu ANC,Suivi DIU TCu 380 chez ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000016,false,,Male condom new,Condom masculin (nouvelle),Condom M NLE,Condom masculin pour nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000017,false,,Male condom continuing,Condom masculin (ancienne),Condom M ANC,Condom masculin pour ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000018,false,,Female condom new,Condom féminin (nouvelle),Condom F NLE,Condom féminin pour nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000019,false,,Female condom continuing,Condom féminin (ancienne),Condom F ANC,Condom féminin pour ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000020,false,,Implanon NXT new,Implanon NXT (nouvelle),Implanon NLE,Implant Implanon NXT posé chez nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000021,false,,Implanon NXT continuing,Implanon NXT (ancienne),Implanon ANC,Suivi Implanon NXT chez ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000022,false,,Jadelle new,Jadelle (nouvelle),Jadelle NLE,Implant Jadelle posé chez nouvelle patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000023,false,,Jadelle continuing,Jadelle (ancienne),Jadelle ANC,Suivi Jadelle chez ancienne patiente,Drug,Numeric
+c3d4e5f6-3333-3333-3333-000000000024,false,,Method change new,Changement méthode (nouvelle),Chang. méthode NLE,Changement de méthode PF (nouvelle patiente),Finding,Numeric
+c3d4e5f6-3333-3333-3333-000000000025,false,,Method change continuing,Changement méthode (ancienne),Chang. méthode ANC,Changement de méthode PF (ancienne patiente),Finding,Numeric
+c3d4e5f6-3333-3333-3333-000000000026,false,,Pregnancy under contraception,Grossesses sous contraception,Gross. sous contracep.,Nombre de grossesses survenues sous contraception,Finding,Numeric
