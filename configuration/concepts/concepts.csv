@@ -9,7 +9,7 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:f
 ,false,CIEL:703,Positive,Positif,Pos,,Misc,N/A
 ,false,CIEL:664,Negative,Négatif,Neg,,Misc,N/A
 ,false,CIEL:163104,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Finding,Text
-,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation (renvoyé, référé, hospitalisé),Finding,Coded
+,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation,Finding,Coded
 e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Finding,Text
 c1b87f83-0cf4-4c86-919d-cacb6cbc33db,false,,MR - Distance from facility,Distance de provenance,Provenance,Distance entre le domicile du patient et le centre de santé (≤ 5 km ou > 5 km),Finding,Text
 2b1736ae-9dcd-488e-84b1-1b2f0e22c521,false,,MR - Referral destination,Destination de référence,Réf vers,Destination vers laquelle le patient est référé (CS ou HD/CH),Finding,Text
