@@ -1,6 +1,22 @@
 {
   "@openmrs/esm-styleguide": {
-    "Brand color #1": "#006400"
+    "Brand color #1": "#006233",
+    "Brand color #2": "#FFD100",
+    "Brand color #3": "#D01C1F"
+  },
+  "@openmrs/esm-primary-navigation-app": {
+    "logo": {
+      "src": "/logo-msas.png",
+      "alt": "Ministère de la Santé - Mauritanie",
+      "name": "Santé Mauritanie"
+    }
+  },
+  "@openmrs/esm-login-app": {
+    "logo": {
+      "src": "/logo-msas.png",
+      "alt": "Ministère de la Santé - Mauritanie",
+      "name": "Santé Mauritanie"
+    }
   },
   "@openmrs/esm-patient-chart-app": {
     "restrictByVisitLocationTag": false,

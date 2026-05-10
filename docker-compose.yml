@@ -23,6 +23,7 @@ services:
       - backend
     volumes:
       - ./config-mauritania.json:/usr/share/nginx/html/config-mauritania.json:ro
+      - ./assets/logo-msas.png:/usr/share/nginx/html/logo-msas.png:ro
 
   backend:
     image: openmrs/openmrs-reference-application-3-backend:${TAG:-qa}
@@ -42,7 +43,7 @@ services:
       timeout: 5s
     volumes:
       - openmrs-data:/openmrs/data
-      - ./configuration:/openmrs/configuration
+      - ./configuration:/openmrs/data/configuration
 
   # MariaDB
   db:
