@@ -1,0 +1,3 @@
+Uuid,Void/Retire,Name,Description,Format,Searchable
+01631c28-2b62-41a4-a289-4a3be131a92c,false,Numéro national d'identité,Numéro de la carte nationale d'identité mauritanienne,java.lang.String,true
+14d4f066-15f5-102d-96e4-000c29c2a5d7,false,Telephone Number,Numéro de téléphone du patient ou de son représentant,java.lang.String,false

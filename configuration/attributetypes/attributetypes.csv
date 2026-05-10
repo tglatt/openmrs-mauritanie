@@ -1,0 +1,2 @@
+Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config
+,false,Location,Code FOSA,Code officiel de la formation sanitaire,0,1,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,

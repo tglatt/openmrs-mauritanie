@@ -1,0 +1,10 @@
+Uuid,Void/Retire,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Datatype,Class,Is set,Same as mappings
+,false,Temperature,Température,Temp,Température corporelle en degrés Celsius,Numeric,Finding,false,CIEL:5088
+,false,Weight,Poids,Poids,Poids du patient en kilogrammes,Numeric,Finding,false,CIEL:5089
+,false,Blood pressure,Tension artérielle,TA,Tension artérielle systolique/diastolique,Text,Finding,false,CIEL:5085
+,false,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Text,Diagnosis,false,CIEL:1284
+,false,Treatment,Traitement,Trait,Traitement prescrit,Text,Drug,false,CIEL:1282
+,false,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Text,Finding,false,CIEL:5219
+,false,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Coded,Test,false,CIEL:1643
+,false,Positive,Positif,Pos,,Boolean,Misc,false,CIEL:703
+,false,Negative,Négatif,Neg,,Boolean,Misc,false,CIEL:664

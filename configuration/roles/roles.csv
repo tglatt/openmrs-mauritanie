@@ -1,0 +1,7 @@
+Uuid,Void/Retire,Role,Description,Inherited roles,Privileges
+,false,Réceptionniste,Enregistrement et accueil des patients,,Get Patients;Add Patients;Edit Patients
+,false,Infirmier,Triage et soins infirmiers,,Get Patients;Add Encounters;Edit Encounters;Get Encounters
+,false,Médecin,Consultation et prescriptions,Infirmier,Get Patients;Add Encounters;Edit Encounters;Delete Encounters;Get Encounters;Add Orders;Edit Orders
+,false,Pharmacien,Dispensation des médicaments,,Get Patients;Get Orders;Add Encounters;Edit Encounters
+,false,Laborantin,Analyses biologiques,,Get Patients;Add Encounters;Edit Encounters;Get Encounters
+,false,Administrateur santé,Administration du système de santé,Infirmier;Médecin,Get Patients;Add Patients;Edit Patients;Delete Patients;Add Encounters;Edit Encounters;Delete Encounters

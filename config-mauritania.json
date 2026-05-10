@@ -1,0 +1,9 @@
+{
+  "@openmrs/esm-styleguide": {
+    "Brand color #1": "#006400"
+  },
+  "@openmrs/esm-patient-chart-app": {
+    "restrictByVisitLocationTag": false,
+    "showUpcomingAppointments": true
+  }
+}

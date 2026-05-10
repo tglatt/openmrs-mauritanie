@@ -1,0 +1,109 @@
+Uuid,Void/Retire,Name,Description,Parent,Tags,Attribute|Code FOSA
+faba8f5e-7d97-48b9-8db0-9a69d980293a,true,Nuadhibou,,,,
+4e1b4c87-0c6e-4938-b6b0-49fb1e1adcde,true,Centre de Santé Nuadhibou,,,,
+35187ba4-f1cb-486b-ae47-2b0cf6fa402f,true,Centre de Santé Tevragh-Zeina,,,,
+b26d8584-43b3-4e2e-84df-da50b2235478,true,Centre de Santé El Mina,,,,
+a905a14d-b0ab-4624-8eba-ba925ed04bc8,false,Mauritanie,,,Login Location,MR
+63edd5ff-5aba-4650-bc8a-2da4df31b5f0,false,Hodh Ech Chargui,,Mauritanie,Login Location,MR-01
+6fe94e76-62a2-4847-95e1-e9f40c901c83,false,Néma,,Hodh Ech Chargui,Login Location,MR-0101
+3fb596aa-a628-4d5d-b10a-c07e58c1c8f0,false,Hôpital Régional de Néma,,Néma,Login Location;Admission Location;Visit Location,MR-010101
+ba583e51-0eb2-4f78-b116-4d82822f910c,false,Centre de Santé de Néma,,Néma,Login Location;Visit Location,MR-010102
+98054f8e-65fc-4e6e-9281-610475699c41,false,Centre de Santé de Bassikounou,,Hodh Ech Chargui,Login Location;Visit Location,MR-010301
+605e705a-85d6-4612-bc07-213bd01cf6d3,false,Centre de Santé de Timbedra,,Hodh Ech Chargui,Login Location;Visit Location,MR-010601
+dedc6f01-1d58-42b6-9b6a-8f18a9bb1182,false,Centre de Santé de Djiguenni,,Hodh Ech Chargui,Login Location;Visit Location,MR-010401
+7d185a46-c29d-471f-88bf-52ce6a196b78,false,Centre de Santé d'Amourj,,Hodh Ech Chargui,Login Location;Visit Location,MR-010201
+009f729b-ed75-4427-9778-fdbe5bf12515,false,Centre de Santé d'Oualata,,Hodh Ech Chargui,Login Location;Visit Location,MR-010501
+f7b3ecd9-cfc3-45c8-b9e5-289521678705,false,Poste de Santé d'Adel Bagrou,,Hodh Ech Chargui,Login Location;Visit Location,MR-010701
+c19d55e9-64d0-425f-938b-4b7136e1b36b,false,Hodh El Gharbi,,Mauritanie,Login Location,MR-02
+096f8f7f-1275-4c20-ae0c-d82ad89d3e90,false,Aïoun el-Atrouss,,Hodh El Gharbi,Login Location,MR-0201
+131d4c12-fd61-4d1c-9754-e0433864fc9e,false,Hôpital Régional d'Aïoun el-Atrouss,,Aïoun el-Atrouss,Login Location;Admission Location;Visit Location,MR-020101
+23719c7b-a87b-42f2-be3d-9744b73138cd,false,Centre de Santé d'Aïoun el-Atrouss,,Aïoun el-Atrouss,Login Location;Visit Location,MR-020102
+9f7cceea-5fce-45cd-8fd5-0f08b37bcc2a,false,Centre de Santé de Tamchakett,,Hodh El Gharbi,Login Location;Visit Location,MR-020301
+3fad41f3-53da-4b6c-a62b-71f4a6f77da6,false,Centre de Santé de Kobenni,,Hodh El Gharbi,Login Location;Visit Location,MR-020201
+7909ad97-337a-4625-95fc-fffecc56b5fc,false,Centre de Santé de Tintane,,Hodh El Gharbi,Login Location;Visit Location,MR-020401
+97d05694-f4de-4ace-bdba-99e4c314fe56,false,Assaba,,Mauritanie,Login Location,MR-03
+98fae755-a659-438a-9ebc-24c929babb80,false,Kiffa,,Assaba,Login Location,MR-0301
+baa907c8-444f-4a1f-aa1a-2da11afad7fc,false,Hôpital Régional de Kiffa,,Kiffa,Login Location;Admission Location;Visit Location,MR-030101
+c291f270-7a4c-4d16-9b70-b502267a8469,false,Centre de Santé de Kiffa,,Kiffa,Login Location;Visit Location,MR-030102
+6123a102-92e8-40b9-8fbd-125e2990b67e,false,Centre de Santé de Barkéol,,Assaba,Login Location;Visit Location,MR-030201
+25b19b2d-7a5a-4b47-bc0a-8409df74751a,false,Centre de Santé de Boumdeid,,Assaba,Login Location;Visit Location,MR-030301
+d169ce01-7723-4e42-ba83-7ab348f49f78,false,Centre de Santé de Guérou,,Assaba,Login Location;Visit Location,MR-030401
+35354b76-4e4a-4c17-b5eb-70b5c0c96f20,false,Centre de Santé de Kankossa,,Assaba,Login Location;Visit Location,MR-030501
+21600eb0-6407-4ec8-9fe1-56b5e4415acd,false,Gorgol,,Mauritanie,Login Location,MR-04
+ae234f7a-5199-4cf8-849b-5c57065bdf5a,false,Kaédi,,Gorgol,Login Location,MR-0401
+68073d03-f261-4c8d-94cb-0dd66cccd305,false,Hôpital Régional de Kaédi,,Kaédi,Login Location;Admission Location;Visit Location,MR-040101
+4e550099-6ca1-49ab-9e8c-d1551b2cabf3,false,Centre de Santé de Kaédi,,Kaédi,Login Location;Visit Location,MR-040102
+76de5a15-2195-433c-9a17-5c56e412f1c6,false,Centre de Santé de Maghama,,Gorgol,Login Location;Visit Location,MR-040201
+09560a8e-b7b9-4426-89c8-aaf708bbadf2,false,Centre de Santé de Mbout,,Gorgol,Login Location;Visit Location,MR-040301
+8eeb374a-4fc3-48cc-83c3-bdab560cbf56,false,Centre de Santé de Monguel,,Gorgol,Login Location;Visit Location,MR-040401
+801970f2-0931-420d-8818-465c6dde4e7c,false,Brakna,,Mauritanie,Login Location,MR-05
+81970c74-f5e3-4e66-9f43-77356d800a31,false,Aleg,,Brakna,Login Location,MR-0501
+7da76247-e7a5-47ca-87fc-35c81972f7af,false,Hôpital Régional d'Aleg,,Aleg,Login Location;Admission Location;Visit Location,MR-050101
+b56e91ee-ee79-4cb1-a1e4-ad3111b4acc8,false,Centre de Santé d'Aleg,,Aleg,Login Location;Visit Location,MR-050102
+6d997cfa-3bd4-4525-b7ae-34f9760cb92f,false,Centre de Santé de Boghé,,Brakna,Login Location;Visit Location,MR-050301
+0fd66e61-c4ae-43a6-a7f5-931b96860a2c,false,Centre de Santé de Bababé,,Brakna,Login Location;Visit Location,MR-050201
+996662b0-33a1-421a-ab3f-66648d288c5d,false,Centre de Santé de Mbagne,,Brakna,Login Location;Visit Location,MR-050302
+d3783398-1a87-4e34-8b3f-3c5ec1afba7d,false,Centre de Santé de Mâl,,Brakna,Login Location;Visit Location,MR-050303
+310f7ef5-81d8-411c-9f1e-3d666c8aba33,false,Trarza,,Mauritanie,Login Location,MR-06
+9cc902ae-f4f0-4fdf-aed2-003446d12523,false,Rosso,,Trarza,Login Location,MR-0601
+52a83e2b-28c8-458b-89ea-de5abeb8a1f4,false,Hôpital Régional de Rosso,,Rosso,Login Location;Admission Location;Visit Location,MR-060101
+2ce508b3-667d-4550-a10d-d8345337df57,false,Centre de Santé de Rosso,,Rosso,Login Location;Visit Location,MR-060102
+7520e1b1-5aed-4e12-97bf-99d483559dc1,false,Centre de Santé de Boutilimit,,Trarza,Login Location;Visit Location,MR-060201
+3cab6916-b37d-40ef-99e1-21d04738a67d,false,Centre de Santé de Mederdra,,Trarza,Login Location;Visit Location,MR-060401
+a4419b03-c5c8-45cc-a990-20a41947966e,false,Centre de Santé de R'Kiz,,Trarza,Login Location;Visit Location,MR-060601
+61e8ba75-9710-40c2-9c37-116e06b9d3d4,false,Centre de Santé de Tekane,,Trarza,Login Location;Visit Location,MR-060701
+51e15f07-99b4-460b-9740-c00c38f2a4b9,false,Centre de Santé de Keur Macène,,Trarza,Login Location;Visit Location,MR-060301
+56fe5d64-5b54-45f3-86ee-dcd7221d3c73,false,Centre de Santé d'Ouad-Naga,,Trarza,Login Location;Visit Location,MR-060501
+be3e177d-4c47-4ff2-8eaa-f2b47e6227fb,false,Adrar,,Mauritanie,Login Location,MR-07
+4a4fe86f-7b9b-4e5e-b6b6-329ce6d9bb91,false,Atar,,Adrar,Login Location,MR-0701
+9777b88c-4af2-48f5-a6ee-ee7b682270bb,false,Hôpital Régional d'Atar,,Atar,Login Location;Admission Location;Visit Location,MR-070101
+42afb2da-b236-42e0-b41b-7ecc10c4aee4,false,Centre de Santé d'Atar,,Atar,Login Location;Visit Location,MR-070102
+dad8c9fe-3285-41da-a287-22651cae8c07,false,Centre de Santé de Chinguetti,,Adrar,Login Location;Visit Location,MR-070301
+4e6f37d1-77a2-4619-be6b-08e88f0e6497,false,Centre de Santé d'Aoujeft,,Adrar,Login Location;Visit Location,MR-070201
+a25c9688-4c22-41a4-a67e-bbede960e15c,false,Centre de Santé d'Ouadane,,Adrar,Login Location;Visit Location,MR-070401
+8aa716dc-8579-4090-9d49-15755dc9ba2f,false,Dakhlet Nouadhibou,,Mauritanie,Login Location,MR-08
+f9fce2b3-694f-4c27-a09d-99a473b200a3,false,Nouadhibou,,Dakhlet Nouadhibou,Login Location,MR-0801
+86b9e4ec-9c66-474e-a0a5-f0872016550f,false,Hôpital Régional de Nouadhibou,,Nouadhibou,Login Location;Admission Location;Visit Location,MR-080101
+14a47d32-9597-4074-ae74-53f08f000446,false,Centre de Santé de Nouadhibou,,Nouadhibou,Login Location;Visit Location,MR-080102
+674a02c7-0865-4e4e-aef1-aa5cbd489a26,false,Centre de Santé de Chami,,Dakhlet Nouadhibou,Login Location;Visit Location,MR-080201
+7fc61130-631b-4a23-94e5-97e8e46f751b,false,Tagant,,Mauritanie,Login Location,MR-09
+a26c1464-4dc3-480c-9a78-95d5836ea289,false,Tidjikja,,Tagant,Login Location,MR-0901
+11dad855-54e7-423c-8776-da465d64bb66,false,Hôpital Régional de Tidjikja,,Tidjikja,Login Location;Admission Location;Visit Location,MR-090101
+b4c5bb28-008b-4236-ad3d-df6d1e403da3,false,Centre de Santé de Tidjikja,,Tidjikja,Login Location;Visit Location,MR-090102
+539b9dac-e1c6-4988-9263-89bc67272ecc,false,Centre de Santé de Moudjéria,,Tagant,Login Location;Visit Location,MR-090201
+872df875-905c-448e-9900-6a776d43f569,false,Centre de Santé de Tichitt,,Tagant,Login Location;Visit Location,MR-090301
+88969cb0-1f9c-4f80-b264-a31b127281ea,false,Guidimagha,,Mauritanie,Login Location,MR-10
+0faaaeeb-4677-4108-a12d-b740b6b42126,false,Sélibaby,,Guidimagha,Login Location,MR-1001
+068cdaa3-14c2-4173-9ff7-f14aafaf3e56,false,Hôpital Régional de Sélibaby,,Sélibaby,Login Location;Admission Location;Visit Location,MR-100101
+eea9f63e-f68d-417c-a3f9-d34e622d452d,false,Centre de Santé de Sélibaby,,Sélibaby,Login Location;Visit Location,MR-100102
+00eee885-328a-4961-a90d-4924ec04674c,false,Centre de Santé de Ghabou,,Guidimagha,Login Location;Visit Location,MR-100301
+5cb05537-671d-4618-af6d-30cb53626091,false,Centre de Santé d'Ould Yengé,,Guidimagha,Login Location;Visit Location,MR-100401
+be135e99-3ba7-4856-bedd-69157c6f99ee,false,Centre de Santé de Baïla,,Guidimagha,Login Location;Visit Location,MR-100201
+94a22e9f-e261-4e4c-a473-6d2ec798092e,false,Centre de Santé de Hassi Cheggar,,Guidimagha,Login Location;Visit Location,MR-100501
+9217d6a4-bd6d-4ddc-baa4-8fda9cadbc36,false,Tiris Zemmour,,Mauritanie,Login Location,MR-11
+688973cf-c120-43fe-9a86-d0b0c82acf2a,false,Zouerate,,Tiris Zemmour,Login Location,MR-1101
+75c1a8c1-eb65-42ed-922c-5a0b699eda57,false,Hôpital Régional de Zouerate,,Zouerate,Login Location;Admission Location;Visit Location,MR-110101
+8a84ecc2-3b4c-46b8-928a-09aa66596943,false,Centre de Santé de Zouerate,,Zouerate,Login Location;Visit Location,MR-110102
+bf8061e7-3aad-46d8-ba7c-8e3762bf2422,false,Centre de Santé de Fdérik,,Tiris Zemmour,Login Location;Visit Location,MR-110301
+9eb98484-dbe0-49fa-8f87-fab8cf6002e4,false,Centre de Santé de Bir Mogrein,,Tiris Zemmour,Login Location;Visit Location,MR-110201
+d5477ea3-0555-435d-9212-d8941190338f,false,Inchiri,,Mauritanie,Login Location,MR-12
+a5318d53-51dd-4eb7-a310-0a96517f3dee,false,Akjoujt,,Inchiri,Login Location,MR-1201
+9577f01c-092c-40ad-8c47-a435c6747c13,false,Hôpital d'Akjoujt,,Akjoujt,Login Location;Admission Location;Visit Location,MR-120101
+06662e91-8351-43a2-ad7d-c3a9aa84fbed,false,Centre de Santé d'Akjoujt,,Akjoujt,Login Location;Visit Location,MR-120102
+23381818-34b5-4cfa-97ef-4d06f0fd2441,false,Poste de Santé de Benichab,,Inchiri,Login Location;Visit Location,MR-120201
+bc4bab07-1320-42e3-90d6-7c976a28373d,false,Nouakchott,,Mauritanie,Login Location,MR-13
+23d094e0-170a-460a-b63b-b4b19ddba906,false,Nouakchott-Ouest,,Nouakchott,Login Location,MR-1301
+e394c82b-a20b-4388-8080-5d017550b490,false,Hôpital National de Nouakchott,,Nouakchott,Login Location;Admission Location;Visit Location,MR-130001
+fc351ef5-247e-4578-a6f4-4db794839837,false,Hôpital des Spécialités de Nouakchott,,Nouakchott,Login Location;Admission Location;Visit Location,MR-130002
+72f86ef6-fb3a-4c1e-a216-018d7db0766e,false,Maternité de Nouakchott,,Nouakchott,Login Location;Admission Location;Visit Location,MR-130003
+7244f80f-5b94-4e1c-85b2-aa49e882e33c,false,Centre de Santé de Tevragh-Zeina,,Nouakchott-Ouest,Login Location;Visit Location,MR-130101
+54082c5f-442e-44ec-94ec-406372a60bf7,false,Centre de Santé de Ksar,,Nouakchott-Ouest,Login Location;Visit Location,MR-130201
+7f8a7128-5a65-4570-b18c-69fe4d088372,false,Centre de Santé de Sebkha,,Nouakchott-Ouest,Login Location;Visit Location,MR-130301
+b8f447c5-e90d-4d95-868f-d35c7bd592c0,false,Nouakchott-Nord,,Nouakchott,Login Location,MR-1401
+4d9a957c-9d6e-4d23-bd41-41fe5e09bdb8,false,Centre de Santé de Dar-Naïm,,Nouakchott-Nord,Login Location;Visit Location,MR-140101
+b630cde9-80d0-400d-9b47-b2ff074e49f1,false,Centre de Santé de Teyarett,,Nouakchott-Nord,Login Location;Visit Location,MR-140201
+bf05b622-732d-456e-8191-075755dbf54a,false,Centre de Santé de Toujounine,,Nouakchott-Nord,Login Location;Visit Location,MR-140301
+11a56618-651f-46f6-8333-0da6f0ec3e7d,false,Nouakchott-Sud,,Nouakchott,Login Location,MR-1501
+d8cacde7-cb82-4c56-b5b2-6f57e2819cf4,false,Centre de Santé d'El Mina,,Nouakchott-Sud,Login Location;Visit Location,MR-150101
+74445038-d3f2-4543-81f5-8f3a25c2b73e,false,Centre de Santé d'Arafat,,Nouakchott-Sud,Login Location;Visit Location,MR-150201
+ae6672ff-aedf-4dff-8c06-582b70b0de09,false,Centre de Santé de Riad,,Nouakchott-Sud,Login Location;Visit Location,MR-150301

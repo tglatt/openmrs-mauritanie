@@ -1,0 +1,59 @@
+<config>
+    <globalProperties>
+
+        <!-- Localisation -->
+        <globalProperty>
+            <property>default_locale</property>
+            <value>fr</value>
+        </globalProperty>
+        <globalProperty>
+            <property>locale.allowed.list</property>
+            <value>fr, ar, en</value>
+        </globalProperty>
+
+        <!-- Pays par défaut -->
+        <globalProperty>
+            <property>default_country</property>
+            <value>MR</value>
+        </globalProperty>
+
+        <!-- Location par défaut au login -->
+        <globalProperty>
+            <property>defaultLocation</property>
+            <value>Mauritanie</value>
+        </globalProperty>
+
+        <!-- Identifiant patient par défaut -->
+        <globalProperty>
+            <property>patient.identifierType.default</property>
+            <value>3cf646c3-6bb4-4c61-aba0-ef338b5e21ee</value>
+        </globalProperty>
+
+        <!-- Visites -->
+        <globalProperty>
+            <property>visits.assignmentHandler</property>
+            <value>org.openmrs.api.handler.ExistingVisitAssignmentHandler</value>
+        </globalProperty>
+        <globalProperty>
+            <property>visits.allowOverlappingVisits</property>
+            <value>false</value>
+        </globalProperty>
+
+        <!-- Hiérarchie d'adresses -->
+        <globalProperty>
+            <property>addresshierarchy.mandatory</property>
+            <value>false</value>
+        </globalProperty>
+        <globalProperty>
+            <property>addresshierarchy.showAddressHierarchyHistory</property>
+            <value>false</value>
+        </globalProperty>
+
+        <!-- Désactiver la création de patients de démo -->
+        <globalProperty>
+            <property>referencedemodata.createDemoPatientsOnNextStartup</property>
+            <value>0</value>
+        </globalProperty>
+
+    </globalProperties>
+</config>

@@ -1,0 +1,11 @@
+Uuid,Void/Retire,Name,Description
+dd528487-82a5-4082-9c72-ed246bd49591,false,Consultation,Consultation médicale générale
+67a71486-1a54-468f-ac3e-7091a9a79584,false,Vitals,Triage infirmier et signes vitaux
+3596fafb-6f6f-4396-8c87-6e63a0f1bd71,false,Lab Results,Résultats d'analyses biologiques
+29c02aff-9a93-46c9-bf6f-48b552fcb1fa,false,Immunizations,Administration de vaccins
+e22e39fd-7db2-45e7-80f1-60fa0d5a4378,false,Admission,Admission en hospitalisation
+181820aa-88c9-479b-9077-af92f5364329,false,Discharge,Sortie d'hospitalisation
+ca3aed11-1aa4-42a1-b85c-8332fc8001fc,false,Check In,Enregistrement du patient à l'accueil
+d7151f82-c1f3-4152-a605-2f9ea7414a79,false,Visit Note,Note de consultation clinique
+b3f4a1d2-5c6e-4f7b-8d2e-9a1b3c4d5e6f,false,Pharmacie,Dispensation de médicaments
+a2e3b4c5-6d7f-4e8a-9b1c-0d2e4f6a7b8c,false,Maternité,Suivi grossesse et accouchement
