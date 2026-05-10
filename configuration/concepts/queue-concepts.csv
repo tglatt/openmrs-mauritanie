@@ -1,6 +1,11 @@
-Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
-f4620bfa-3625-4883-bd3f-84c2cce14470,false,,Normal,Normal,Normal,Priorité normale de la file d'attente,Misc,N/A
-04f6f7e0-e3cb-4e13-a133-4479f759574e,false,,Urgent,Urgent,Urgent,Priorité urgente de la file d'attente,Misc,N/A
-51ae5e4d-b72b-4912-bf31-a17efb690aeb,false,,Waiting,En attente,Attente,Patient en attente dans la file,Misc,N/A
-ca7494ae-437f-4fd0-8aae-b88b9a2ba47d,false,,In Service,En consultation,En cours,Patient en cours de consultation,Misc,N/A
-b559fb77-4e1e-4285-b9b7-1d03e0ba983f,false,,Finished,Terminé,Terminé,Consultation terminée,Misc,N/A
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type,Members
+f4620bfa-3625-4883-bd3f-84c2cce14470,false,,Normal,Normal,Normal,Priorité normale,Misc,N/A,
+04f6f7e0-e3cb-4e13-a133-4479f759574e,false,,Urgent,Urgent,Urgent,Priorité urgente,Misc,N/A,
+51ae5e4d-b72b-4912-bf31-a17efb690aeb,false,,Waiting,En attente,Attente,Patient en attente,Misc,N/A,
+ca7494ae-437f-4fd0-8aae-b88b9a2ba47d,false,,In Service,En consultation,En cours,Patient en consultation,Misc,N/A,
+b559fb77-4e1e-4285-b9b7-1d03e0ba983f,false,,Finished,Terminé,Terminé,Consultation terminée,Misc,N/A,
+c1d2e3f4-a5b6-7890-cdef-333333333333,false,,Triage Service,Service Triage,Triage,Service de triage,Misc,N/A,
+d2e3f4a5-b6c7-8901-defa-444444444444,false,,Consultation Service,Service Consultation,Consult.,Service de consultation,Misc,N/A,
+aaaaaa01-0000-0000-0000-000000000001,false,,Queue Services,Services de file d'attente,Services,Set des services de file d'attente,ConvSet,N/A,c1d2e3f4-a5b6-7890-cdef-333333333333;d2e3f4a5-b6c7-8901-defa-444444444444
+aaaaaa02-0000-0000-0000-000000000002,false,,Queue Priorities,Priorités de file d'attente,Priorités,Set des priorités de file d'attente,ConvSet,N/A,f4620bfa-3625-4883-bd3f-84c2cce14470;04f6f7e0-e3cb-4e13-a133-4479f759574e
+aaaaaa03-0000-0000-0000-000000000003,false,,Queue Statuses,Statuts de file d'attente,Statuts,Set des statuts de file d'attente,ConvSet,N/A,51ae5e4d-b72b-4912-bf31-a17efb690aeb;ca7494ae-437f-4fd0-8aae-b88b9a2ba47d;b559fb77-4e1e-4285-b9b7-1d03e0ba983f

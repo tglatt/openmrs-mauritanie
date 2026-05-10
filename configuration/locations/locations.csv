@@ -7,7 +7,7 @@ a905a14d-b0ab-4624-8eba-ba925ed04bc8,false,Mauritanie,,,Login Location,MR
 63edd5ff-5aba-4650-bc8a-2da4df31b5f0,false,Hodh Ech Chargui,,Mauritanie,Login Location,MR-01
 6fe94e76-62a2-4847-95e1-e9f40c901c83,false,Néma,,Hodh Ech Chargui,Login Location,MR-0101
 3fb596aa-a628-4d5d-b10a-c07e58c1c8f0,false,Hôpital Régional de Néma,,Néma,Login Location;Admission Location;Visit Location,MR-010101
-ba583e51-0eb2-4f78-b116-4d82822f910c,false,Centre de Santé de Néma,,Néma,Login Location;Visit Location,MR-010102
+ba583e51-0eb2-4f78-b116-4d82822f910c,false,Centre de Santé de Néma,,Néma,Login Location;Visit Location;Queue Location,MR-010102
 98054f8e-65fc-4e6e-9281-610475699c41,false,Centre de Santé de Bassikounou,,Hodh Ech Chargui,Login Location;Visit Location,MR-010301
 605e705a-85d6-4612-bc07-213bd01cf6d3,false,Centre de Santé de Timbedra,,Hodh Ech Chargui,Login Location;Visit Location,MR-010601
 dedc6f01-1d58-42b6-9b6a-8f18a9bb1182,false,Centre de Santé de Djiguenni,,Hodh Ech Chargui,Login Location;Visit Location,MR-010401

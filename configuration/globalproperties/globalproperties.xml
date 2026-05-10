@@ -55,5 +55,23 @@
             <value>0</value>
         </globalProperty>
 
+        <!-- File d'attente -->
+        <globalProperty>
+            <property>queue.serviceConceptSetName</property>
+            <value>aaaaaa01-0000-0000-0000-000000000001</value>
+        </globalProperty>
+        <globalProperty>
+            <property>queue.priorityConceptSetName</property>
+            <value>aaaaaa02-0000-0000-0000-000000000002</value>
+        </globalProperty>
+        <globalProperty>
+            <property>queue.statusConceptSetName</property>
+            <value>aaaaaa03-0000-0000-0000-000000000003</value>
+        </globalProperty>
+        <globalProperty>
+            <property>queue.sortWeightGenerator</property>
+            <value>basicPrioritySortWeightGenerator</value>
+        </globalProperty>
+
     </globalProperties>
 </config>
