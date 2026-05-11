@@ -1,0 +1,222 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
+1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1065,Yes,Oui,,,Misc,N/A
+110598AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:110598,Acute pain,,,,Diagnosis,N/A
+110834AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:110834,Gastritis,Gastrite,,,Diagnosis,N/A
+111633AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:111633,Urinary tract infection,Infection urinaire,,,Diagnosis,N/A
+111636AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:111636,Urinary incontinence,,,,Diagnosis,Coded
+111AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:111,Dyspepsia,,,,Symptom/Finding,N/A
+112198AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:112198,Trichiasis of eyelid,,,,Diagnosis,N/A
+112287AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:112287,Trachoma,Trachome,,,Diagnosis,N/A
+112493AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:112493,Syphilis,Syphilis,,,Diagnosis,N/A
+112561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:112561,Superficial head injury,,,,Diagnosis,N/A
+112989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:112989,Shock,Choc,,,Diagnosis,N/A
+112992AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:112992,Sexually transmitted disease,Maladie sexuellement transmissible,,,Diagnosis,N/A
+113087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113087,Secondary hypertension,Hypertension secondaire,,,Diagnosis,N/A
+113155AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113155,Schizophrenia,Schizophrénie,,,Diagnosis,N/A
+113228AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113228,Rheumatic fever without heart involvement,,,,Diagnosis,N/A
+113230AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113230,Rheumatic fever with cardiac involvement,,,,Diagnosis,N/A
+113279AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113279,"Retained placenta or membranes, without hemorrhage",,,,Diagnosis,N/A
+113881AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113881,Post-traumatic stress disorder,Etat de stress post-traumatique,,,Diagnosis,N/A
+113926AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:113926,Postnatal infection,,,,Diagnosis,N/A
+114100AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:114100,Pneumonia,Peumonie,,,Diagnosis,N/A
+114174AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:114174,Phlebitis and thrombophlebitis,Phlébite et thrombophlébite,,,Diagnosis,N/A
+114262AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:114262,Peptic ulcer,Ulcère peptique,,,Diagnosis,N/A
+114431AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:114431,Otitis externa,Otite externe,,,Diagnosis,N/A
+115191AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:115191,Other noninfectious disorders of lymphatic channels,,,,Diagnosis,N/A
+115797AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:115797,Disorder of metabolism,Anomalies metaboliques,,,Diagnosis,N/A
+115835AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:115835,Meningitis,Méningite,,,Diagnosis,N/A
+115914AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:115914,Mastitis-postpartum,,,,Diagnosis,N/A
+116128AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116128,Malaria,Paludisme,,,Diagnosis,N/A
+116135AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116135,"Major Puerperal Infection, Postpartum",,,,Diagnosis,N/A
+116214AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116214,Hypotension,,,,Diagnosis,N/A
+116344AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116344,Leprosy,Lèpre,,,Diagnosis,N/A
+116376AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116376,Late effects of cerebrovascular disease,,,,Diagnosis,N/A
+116474AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116474,Kwashiorkor,Kwashiorkor,,,Diagnosis,N/A
+116543AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116543,Burn,Brûlure,,,Diagnosis,Boolean
+116700AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:116700,"Intestinal helminthiasis, other",,,,Diagnosis,N/A
+117146AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117146,Trichomoniasis,Trichomoniase,,,Diagnosis,N/A
+117152AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117152,Schistosomiasis,Schistosomiase,,,Diagnosis,N/A
+117315AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117315,Hypovolaemia,Hypovolémique,,,Diagnosis,N/A
+117386AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117386,Hypertensive heart disease,Maladie hypertensive du coeur,,,Diagnosis,N/A
+117543AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117543,Herpes zoster,Zona,,,Diagnosis,N/A
+117617AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117617,Hemorrhage in early pregnancy,Hémorragie du début de la grossesse,,,Diagnosis,N/A
+117767AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117767,Gonorrhea,Gonorrhée,,,Diagnosis,N/A
+117829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117829,Genital herpes,,,,Diagnosis,N/A
+117889AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:117889,Gastroenteritis,Gastro entérite,,,Diagnosis,N/A
+118652AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:118652,Encephalocele,,,,Diagnosis,N/A
+118771AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:118771,Dysuria,Dysurie,,,Diagnosis,N/A
+118789AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:118789,Dysphagia,Dysphagie,,,Diagnosis,N/A
+119027AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119027,Disease of bone and joint,,,,Diagnosis,N/A
+119112AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119112,Disorder of nervous system,Trouble neurologique,,,Diagnosis,N/A
+119204AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119204,Electrolyte or fluid disorder,,,,Diagnosis,N/A
+119222AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119222,Disorder of eye,,,,Diagnosis,N/A
+119240AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119240,Disorder of Ear,,,,Diagnosis,N/A
+119356AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119356,Hookworm disease,Ankylostomiase,,,Diagnosis,N/A
+119481AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119481,Diabetes mellitus,Diabète mellitus,,,Diagnosis,Coded
+119506AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119506,Dermatomycosis,,,,Diagnosis,N/A
+119523AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119523,Other Specified Dermatomycoses,,,,Diagnosis,N/A
+119537AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119537,Depression,Dépression,,,Diagnosis,N/A
+119558AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119558,Dental caries,Carie dentaire,,,Diagnosis,N/A
+119656AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119656,Decubitus ulcer,Ulcère de décubitus,,,Diagnosis,N/A
+119685AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:119685,Cystitis,Cystite,,,Diagnosis,N/A
+120147AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:120147,Condyloma,,,,Diagnosis,N/A
+120194AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:120194,Complication of puerperium,,,,Diagnosis,Coded
+120939AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:120939,Candidiasis,Candidose,,,Diagnosis,N/A
+121262AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:121262,Bacterial infection,Infection bactérienne,,,Diagnosis,N/A
+121372AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:121372,Asthma with status asthmaticus,Etat de mal asthmatique,,,Diagnosis,N/A
+121375AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:121375,Asthma,Asthme,,,Diagnosis,Coded
+121452AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:121452,Disorder of joint,,,,Diagnosis,N/A
+121629AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:121629,Anaemia,Anémie,,,Diagnosis,N/A
+122604AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:122604,Cholera due to Vibrio cholerae,Cholera,,,Diagnosis,N/A
+1226AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1226,"Anemia, iron deficiency","Anemie, carence en fer",,,Diagnosis,N/A
+123052AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:123052,Vitamin A deficiency with keratomalacia,,,,Diagnosis,N/A
+123123AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:123123,Viral conjunctivitis,Conjonctivite virale,,,Diagnosis,N/A
+123529AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:123529,Urethrorrhoea,Écoulement de l'urètre,,,Diagnosis,N/A
+123620AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:123620,Perineal laceration during delivery,,,,Diagnosis,N/A
+123841AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:123841,Umbilical hemorrhage after birth,,,,Diagnosis,N/A
+124129AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:124129,Trichuriasis,,,,Diagnosis,N/A
+124456AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:124456,Toxic effect of venom,,,,Diagnosis,N/A
+124954AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:124954,Tetanus neonatorum,Tetanos neonatal,,,Diagnosis,N/A
+124957AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:124957,Tetanus,Tétanos,,,Diagnosis,Coded
+124AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:124,Amoebiasis,Amibiase,,,Diagnosis,N/A
+125165AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:125165,Syncope and collapse,,,,Diagnosis,N/A
+125343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:125343,Superficial injury of shoulder and upper arm,,,,Diagnosis,N/A
+125379AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:125379,Superficial injury of forearm,,,,Diagnosis,N/A
+126127AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:126127,Spontaneous abortion,Avortement-spontané (fausse-couche),,,Diagnosis,N/A
+126208AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:126208,Spina bifida,,,,Diagnosis,N/A
+126558AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:126558,Shigellosis,,,,Diagnosis,N/A
+127579AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:127579,Retention of urine,Rétention d'urine,,,Diagnosis,N/A
+127990AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:127990,Fever of unknown origin,Fièvre d'origine indéterminée,,,Diagnosis,N/A
+128099AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:128099,Pulp and periapical tissue disease,Maladies de la pulpe et des tissus périapicaux,,,Diagnosis,N/A
+128126AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:128126,Pulmonary hemorrhage,,,,Diagnosis,N/A
+129211AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:129211,Premature rupture of membranes,Rupture prématurée des membranes,,,Diagnosis,N/A
+1293AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1293,Gastroesophageal reflux disease,Maladie reflux gastroesophageal,,,Diagnosis,N/A
+129473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:129473,Positive serological and/or viral culture findings for Human Immunodeficiency Virus,,,,Diagnosis,N/A
+129566AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:129566,Polydactyly,Polydactylie,,,Diagnosis,N/A
+130AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:130,Puerperal sepsis,Septicémie puerpérale,,,Diagnosis,N/A
+131113AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:131113,Otitis media,Otite (moyenne),,,Diagnosis,N/A
+132636AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:132636,Nutritional marasmus,Marasme nutritionnel,,,Diagnosis,N/A
+133414AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:133414,Neonatal conjunctivitis,Conjonctivite néonatale,,,Diagnosis,N/A
+134213AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:134213,Microcephalus,Microcéphalie,,,Diagnosis,N/A
+134337AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:134337,Mental disorder,Touble Psychiatrique,,,Diagnosis,N/A
+134561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:134561,Measles,Rougeole,,,Diagnosis,N/A
+135462AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:135462,Lymphogranuloma venereum,,,,Diagnosis,N/A
+135488AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:135488,Lymphadenopathy,Lymphadénopathie,,,Diagnosis,N/A
+136443AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:136443,Jaundice,Ictère,,,Diagnosis,N/A
+136677AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:136677,Intestinal parasitism,Parasitose intestinale,,,Diagnosis,N/A
+136758AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:136758,Irregular intermenstrual bleeding,,,,Diagnosis,N/A
+137293AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:137293,Infection of skin,Infection de la peau,,,Diagnosis,N/A
+137352AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:137352,Infection by Taenia,,,,Diagnosis,N/A
+137355AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:137355,Infection by Strongyloides,,,,Diagnosis,N/A
+137998AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:137998,Hypothermia of newborn,,,,Diagnosis,N/A
+138291AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:138291,Hyperglycaemia,Hyperglycémie,,,Diagnosis,N/A
+138405AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:138405,Human immunodeficiency virus (HIV) disease,Virus de l'immunodéficience humaine,,,Diagnosis,Coded
+138706AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:138706,Herpes simplex,"Herpès simplex, non-spécifié",,,Diagnosis,N/A
+138849AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:138849,Hemorrhoids,Hémorroïde,,,Diagnosis,N/A
+138868AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:138868,Hemorrhagic diarrhea,Diarrhée hémorragique,,,Diagnosis,N/A
+139084AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:139084,Headache,Céphalée,,,Diagnosis,N/A
+139277AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:139277,Granuloma inguinale,,,,Diagnosis,N/A
+139355AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:139355,Glycosuria,,,,Diagnosis,N/A
+139502AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:139502,Genitourinary tract infection in pregnancy,,,,Diagnosis,N/A
+140061AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:140061,"Flatulence, eructation and gas pain",,,,Diagnosis,N/A
+140474AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:140474,Feeding problems in newborn,,,,Diagnosis,Coded
+140501AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:140501,Fatigue,Fatigue,,,Diagnosis,Boolean
+140987AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:140987,Essential hypertension,Hypertension essentielle,,,Diagnosis,N/A
+140AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:140,Scabies,Gale,,,Diagnosis,N/A
+141216AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:141216,Enterobiasis,,,,Diagnosis,N/A
+141600AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:141600,Shortness of breath,Difficulté à respirer,,,Diagnosis,N/A
+142473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:142473,"Diabetes mellitus, type 2",Diabète sucré non insulino-dépendant (Type 2),,,Diagnosis,N/A
+143264AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:143264,Cough,Toux,,,Diagnosis,Coded
+143388AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:143388,Convulsions in the newborn,Convulsions du nouveau-né,,,Diagnosis,N/A
+145131AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:145131,Chronic viral hepatitis,,,,Diagnosis,N/A
+145762AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:145762,Chancroid,Chancre mou,,,Diagnosis,N/A
+147241AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:147241,Bleeding,Saignement,,,Diagnosis,N/A
+148023AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:148023,Bacterial gastroenteritis,"Diarrhée, bactérienne",,,Diagnosis,N/A
+148353AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:148353,Ascariasis,VER rond,,,Diagnosis,N/A
+1490AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1490,Physical trauma,Traumatisme physique,,,Diagnosis,N/A
+149496AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:149496,Acute tonsillitis,,,,Diagnosis,N/A
+149579AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:149579,Acute pharyngitis,,,,Diagnosis,N/A
+150555AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:150555,Abscess of skin and subcutaneous tissue,,ABCès,,Diagnosis,N/A
+150803AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:150803,Abnormal urine,,,,Diagnosis,N/A
+152065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:152065,Chronic intractable pain,Douleur chronique irréductible,,,Diagnosis,N/A
+152202AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:152202,Marasmic kwashiorkor,,,,Diagnosis,N/A
+152306AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:152306,"Primary respiratory tuberculosis, confirmed","Tuberculose respiratoire, confirmée",,,Diagnosis,N/A
+155232AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:155232,Bacterial foodborne intoxication,Intoxication bactérienne d'origine alimentaire,,,Diagnosis,N/A
+155AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:155,Epilepsy,Épilepsie,,,Diagnosis,Coded
+158995AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:158995,"Superficial injury of lower limb, level unspecified",,,,Diagnosis,N/A
+159240AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:159240,"unspecified maternal hypertension, postpartum condition or complication",,,,Diagnosis,N/A
+160139AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160139,Gingivitis and periodontal diseases,,,,Diagnosis,N/A
+160141AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160141,Other disease of hard tissue of teeth,,,,Diagnosis,N/A
+160142AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160142,Infection of teeth or gums,,,,Diagnosis,N/A
+160143AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160143,"Acute viral hepatitis, other",,,,Diagnosis,N/A
+160144AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160144,"Specified bacterial disease, other",,,,Diagnosis,N/A
+160146AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160146,Rabies,Rage,,,Diagnosis,N/A
+160147AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160147,Other bacterial agents as the cause of diseases classified to other chapters,,,,Misc,N/A
+160148AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160148,"Malaria, confirmed",Malaria confirmées,,,Diagnosis,N/A
+160149AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160149,Presumptive malaria with minor digestive system,,,,Diagnosis,N/A
+160150AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160150,Malaria confirmed with minor digestive symptoms,,,,Diagnosis,N/A
+160151AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160151,Presumptive malaria with pregnancy,,,,Diagnosis,N/A
+160152AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160152,Confirmed malaria with pregnancy,,,,Diagnosis,N/A
+160153AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160153,"Presumptive malaria with minor digestive symptoms, pregnant",,,,Diagnosis,N/A
+160154AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160154,"Confirmed malaria with minor digestive symptoms, pregnant",,,,Diagnosis,N/A
+160155AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160155,Severe malaria,Malaria sevère,,,Diagnosis,N/A
+160156AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160156,"Tuberculosis, Tuberculosis BK+",,,,Diagnosis,N/A
+160157AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160157,Viral and other specified intestinal infection,Infection intestinale virale et d'autres spécifiée,,,Diagnosis,N/A
+160158AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160158,Human immunodeficiency virus disease resulting in other specified diseases,,,,Diagnosis,N/A
+160159AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160159,HIV resulting in infectious or parasitic disease,,,,Diagnosis,N/A
+160161AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160161,Generalized skin infection due to AIDS,,,,Diagnosis,N/A
+160163AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160163,"Disease of stomach and duodenum, other",,,,Diagnosis,N/A
+160164AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160164,Irritable bowel syndrome,,,,Diagnosis,N/A
+160165AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160165,"Functional intestinal disorders, other",,,,Diagnosis,N/A
+160166AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160166,"Protozoal intestinal diseases, other",,,,Diagnosis,N/A
+160167AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160167,ICPC diagnosis categories,,,,ConvSet,N/A
+160168AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160168,General and unspecified diagnoses,,,,ConvSet,N/A
+160169AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160169,Immune mechanism diagnoses,,,,ConvSet,N/A
+160170AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160170,HIV and opportunistic infection diagnoses,,,,ConvSet,N/A
+160171AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160171,Digestive system diagnoses,,,,ConvSet,N/A
+160172AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160172,Eye diagnoses,,,,ConvSet,N/A
+160173AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160173,Ear diagnoses,,,,ConvSet,N/A
+160174AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160174,Cardiovascular system diagnoses,,,,ConvSet,N/A
+160175AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160175,Musculoskeletal system and injury diagnoses,,,,ConvSet,N/A
+160176AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160176,Neurological diagnoses,,,,ConvSet,N/A
+160177AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160177,Psychological diagnoses,,,,ConvSet,N/A
+160178AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160178,Respiratory system diagnoses,,,,ConvSet,N/A
+160179AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160179,Dermatological diagnoses,,,,ConvSet,N/A
+160180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160180,"Nutritional, endocrine and metabolic diagnoses",,,,ConvSet,N/A
+160181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160181,Urological system diagnoses,,,,ConvSet,N/A
+160182AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160182,Dental diagnoses,,,,ConvSet,N/A
+160186AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160186,Superficial injury of hip or thigh,,,,Diagnosis,N/A
+160187AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160187,Superficial injury of hand or wrist,,,,Diagnosis,N/A
+160188AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160188,"Superficial injury of abdomen, lower back or pelvis",,,,Diagnosis,N/A
+160189AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160189,Abdominal or pelvic pain,,,,Diagnosis,N/A
+160190AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160190,"Hepatomegaly or splenomegaly, not classified elsewhere",,,,Diagnosis,N/A
+160195AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160195,"Poliomyelitis, suspected","Poliomyélite, suspectés",,,Diagnosis,N/A
+160196AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160196,"Reaction to severe stress, and adjustment disorder",,,,Diagnosis,N/A
+160197AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160197,Psychosomatic problems,Troubles psychosomatiques,,,Diagnosis,N/A
+160198AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160198,"Psychological problem, other","Problème psychologique, autre",,,Diagnosis,N/A
+160199AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160199,Behavior disorder not due to alcohol and drugs,,,,Diagnosis,N/A
+160200AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160200,Mental or behavioral disorder due to alcohol or illicit drug use,,,,Diagnosis,N/A
+160202AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160202,Sexually transmitted chlamydial disease,,,,Diagnosis,N/A
+160204AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160204,"Acute respiratory infection, other",,,,Diagnosis,N/A
+160205AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160205,Acute malnutrition,,,,Diagnosis,Coded
+160206AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160206,Urethritis or urethral syndrome,,,,Diagnosis,N/A
+160207AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160207,Single spontaneous delivery,,,,Diagnosis,N/A
+160208AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160208,Urinary symptoms,,,,Diagnosis,N/A
+160210AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160210,Labor and delivery complicated by intrapartum hemorrhage,,,,Diagnosis,N/A
+160211AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160211,Multiple delivery,,,,Diagnosis,N/A
+160212AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160212,"Pregnancy, childbearing and family planning diagnoses",,,,ConvSet,N/A
+160213AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160213,Male and female genital diagnoses,,,,ConvSet,N/A
+199AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:199,Helminthiasis,Helminthiase,,,Diagnosis,N/A
+206AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:206,Seizure,Convulsion,,,Diagnosis,Coded
+230AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:230,Postpartum hemorrhage,Saignement post partum,,,Finding,Coded
+460AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:460,Oedema,Oedème,,,Finding,Coded
+48AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:48,"Pregnancy, miscarriage","Grossesse, fausse couche",,,Diagnosis,Coded
+5018AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5018,"Diarrhea, chronic",Diarrhée chronique,,,Symptom,N/A
+512AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:512,Rash,Eruption cutanées,,,Symptom/Finding,Coded
+5258AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5258,Poliomyelitis,Poliomyélite,,,Diagnosis,N/A
+5340AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5340,"HIV staging - candidiasis, ororespiratory tract","Phase VIH - candidiasis, voie ororespiratoire",,,Diagnosis,N/A
+5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5622,Other non-coded,,,,Misc,N/A
+832AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:832,Weight loss,Perte de poids,,,Finding,Boolean
+840AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:840,Hematuria,Hématurie,,,Symptom/Finding,N/A
+879AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:879,Pruritus,Prurit,,,Finding,N/A
+892AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:892,Varicella,Varicelle,,,Diagnosis,N/A
