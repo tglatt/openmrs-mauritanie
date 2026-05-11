@@ -1,2 +1,4 @@
 Uuid,Void/Retire,Name,Description,_version:1
 b4535251-9183-4175-959e-9ee67dc71e78,false,Pharmacologic Drug Class,Class of medications based on pharmacologic properties as opposed to therapeutic properties,
+8e071bfe-520c-44c0-a89b-538e9129b42a,false,Frequency,Frequency of administration,
+e30d8601-07f8-413a-9d11-cdfbb28196ec,false,Units of Measure,Units of measure for prescribing and dispensing,

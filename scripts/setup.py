@@ -151,6 +151,50 @@ def create_admin_provider():
         print(f"  ✗ Échec : {result.get('error', '')}")
 
 
+def fix_numeric_concepts():
+    """
+    L'Initializer ne supporte pas le flag allow_decimal pour les concepts numériques.
+    Ce fix corrige la précision décimale directement en base via l'API SQL interne.
+    """
+    print("\n=== Correction décimales concepts numériques ===")
+
+    # Concepts qui doivent accepter les décimales
+    decimal_uuids = [
+        "5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # Temperature (38.5°C)
+        "5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # Weight (70.5 kg)
+        "5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # Height (168.5 cm)
+        "5096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # MUAC
+        "1342AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # BMI
+        "1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # MUAC alt
+        "5916AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",  # Birth weight
+    ]
+
+    fixed = 0
+    for uuid in decimal_uuids:
+        try:
+            result = make_request(f"concept/{uuid}", method="GET")
+            if "uuid" not in result:
+                continue
+            # Patch via admin SQL endpoint
+            import subprocess
+            cmd = [
+                "docker", "exec", "openmrs-mauritanie-db-1",
+                "mysql", "-uopenmrs", "-popenmrs", "-e",
+                f"USE openmrs; UPDATE concept_numeric cnm JOIN concept c ON c.concept_id=cnm.concept_id SET cnm.allow_decimal=1 WHERE c.uuid='{uuid}';"
+            ]
+            r = subprocess.run(cmd, capture_output=True, text=True)
+            if r.returncode == 0:
+                fixed += 1
+        except Exception:
+            pass
+
+    if fixed > 0:
+        print(f"  ✓ {fixed} concepts mis à jour (allow_decimal=1)")
+    else:
+        print("  ⚠ Fix via Docker non disponible — lancez manuellement :")
+        print("  docker exec openmrs-mauritanie-db-1 mysql -uopenmrs -popenmrs -e \"USE openmrs; UPDATE concept_numeric cnm JOIN concept c ON c.concept_id=cnm.concept_id SET cnm.allow_decimal=1 WHERE c.uuid IN ('5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA','5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA','5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA','5096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA','1342AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA','1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');\"")
+
+
 def main():
     print("╔══════════════════════════════════════════╗")
     print("║  Setup OpenMRS Mauritanie                ║")
@@ -166,6 +210,7 @@ def main():
         create_medecin(m)
 
     create_admin_provider()
+    fix_numeric_concepts()
 
     print("\n✓ Configuration terminée.")
     print("\nIdentifiants médecins :")

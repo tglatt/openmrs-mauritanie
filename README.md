@@ -9,13 +9,17 @@ Instance OpenMRS 3 configurée pour le Centre de Santé de Néma (Mauritanie).
 - Identifiant patient : NNI (Numéro National d'Identité, 10 chiffres, unique)
 - Types de consultation liés aux registres du Ministère de la Santé
 - Concepts médicaux CIEL + concepts spécifiques Mauritanie
+- Signes vitaux avec unités et valeurs décimales (température, poids, taille, TA, FC, FR, SpO2, MUAC)
+- Set signes vitaux CIEL 1114 pour l'affichage dans la fiche patient
 - File d'attente (Triage / Consultation) avec priorités et statuts
 - Rendez-vous : 4 services (Consultation Externe, CPN, Vaccination, PF) avec 9 types
 - Modes de paiement adaptés (Espèces, Mobile Money, CNAM, etc.)
 - Formulaires AMPATH : Consultation Externe, Laboratoire, CPN, Planification Familiale, Accouchement
-- 224 diagnostics CIEL issus de la Reference Application (avec traductions FR)
+- 223 diagnostics CIEL issus de la Reference Application (avec traductions FR)
 - Médicaments : 25 entrées prescriptibles (INN/DCI, formes galéniques, dosages)
+- Prescriptions : voies d'administration, unités de dose, durées et fréquences configurées
 - Allergies : 4 ensembles d'allergènes (médicaments, aliments, environnement, réactions)
+- Couleurs de marque Mauritanie (vert #006233) appliquées à l'interface
 - Configuration chargée automatiquement via Initializer au démarrage
 
 ## Structure
@@ -24,12 +28,13 @@ Instance OpenMRS 3 configurée pour le Centre de Santé de Néma (Mauritanie).
 openmrs-mauritanie/
 ├── Dockerfile                              # Image backend custom (sans configs demo)
 ├── docker-compose.yml
-├── config-mauritania.json                  # Configuration frontend O3
+├── config-mauritania.json                  # Configuration frontend O3 (couleurs, logo, queues)
 ├── assets/
 │   └── logo-msas.png                       # Logo Ministère de la Santé
 ├── scripts/
+│   ├── setup.py                            # Configuration rôles + création médecins
 │   ├── add-patients.py                     # Crée 100 patients fictifs mauritaniens
-│   └── add-visits-appointments.py          # Crée 10 visites actives + 100 RDV (semaine à venir)
+│   └── add-visits-appointments.py          # Crée 10 visites actives + 100 RDV
 └── configuration/                          # Chargée par Initializer au démarrage
     ├── addresshierarchy/
     │   ├── addressConfiguration.xml        # Niveaux : Pays > Wilaya > Moughataa > Commune
@@ -40,8 +45,6 @@ openmrs-mauritanie/
     │   ├── cpn.json                        # Suivi prénatal (CPN 1 à 4+)
     │   ├── pf.json                         # Planification familiale
     │   └── accouchement.json               # Registre accouchement complet
-    ├── drugs/
-    │   └── drugs.csv                       # 25 médicaments prescriptibles avec forme et dosage
     ├── appointmentservicedefinitions/
     │   └── service_definitions.csv         # 4 services au Centre de Santé de Néma
     ├── appointmentservicetypes/
@@ -49,23 +52,30 @@ openmrs-mauritanie/
     ├── appointmentspecialities/
     │   └── specialities.csv                # Spécialité : Soins de Santé Primaires
     ├── attributetypes/
-    │   └── attributetypes.csv              # Code FOSA, Insurance Policy Number, Punctuality
+    │   └── attributetypes.csv              # Code FOSA, Insurance Policy Number
+    ├── conceptclasses/
+    │   └── conceptclasses.csv              # Pharmacologic Drug Class, Frequency, Units of Measure
     ├── concepts/
-    │   ├── concepts.csv                    # Concepts CIEL : signes vitaux, diagnostic, traitement...
+    │   ├── concepts.csv                    # Signes vitaux CIEL (avec unités, décimales, set 1114)
     │   ├── concepts-accouchement.csv       # Concepts spécifiques au registre accouchement
     │   ├── concepts-allergies.csv          # 57 concepts allergies (4 sets + allergènes + réactions)
     │   ├── concepts-diagnostics.csv        # 223 diagnostics CIEL (Reference Application)
     │   ├── concepts-formes-galeniques.csv  # 6 formes galéniques (comprimé, sirop, injectable...)
     │   ├── concepts-medicaments.csv        # 20 molécules INN/DCI (paracétamol, amoxicilline...)
+    │   ├── concepts-prescriptions.csv      # Routes, unités de dose, durées, fréquences
     │   └── queue-concepts.csv              # Concepts file d'attente (priorités, statuts, services)
     ├── conceptsources/
     │   └── conceptsources.csv              # Source CIEL
+    ├── drugs/
+    │   └── drugs.csv                       # 25 médicaments prescriptibles avec forme et dosage
     ├── encountertypes/
     │   └── encountertypes.csv              # 16 types : Consultation, CPN, Accouchement...
     ├── globalproperties/
-    │   └── globalproperties.xml            # Locale fr, pays MR, NNI par défaut, queues, allergies
+    │   └── globalproperties.xml            # Locale, queues, allergies, prescriptions
     ├── locations/
     │   └── locations.csv                   # Mauritanie > Hodh Ech Chargui > Néma > CS Néma
+    ├── orderfrequencies/
+    │   └── orderfrequencies.csv            # 7 fréquences : 1x/j, 2x/j, 3x/j, 4x/j, /6h, /12h, DU
     ├── patientidentifiertypes/
     │   └── patientidentifiertypes.csv      # NNI (10 chiffres, unique)
     ├── paymentmodes/
@@ -125,6 +135,29 @@ openmrs-mauritanie/
 | Assurance maladie (CNAM) | Caisse Nationale d'Assurance Maladie |
 | Prise en charge gratuite | Gratuité (urgences, indigents) |
 
+## Médicaments prescriptibles
+
+25 médicaments (Drug entries) couvrant les pathologies courantes en centre de santé primaire :
+antipaludéens (Coartem, ASAQ, Quinine injectable), antibiotiques (Amoxicilline, Cotrimoxazole, Métronidazole, Ampicilline, Pénicilline G, Gentamicine), antalgiques (Paracétamol), SRO, compléments (Fer, Acide folique, Vitamine A, Zinc), utérotoniques (Ocytocine, Misoprostol), antiéclamptique (MgSO4), anesthésique local (Lidocaïne).
+
+## Prescriptions
+
+| Domaine | Valeurs |
+|---|---|
+| Voies d'administration | Orale, IV, IM, SC, Inhalée, Vaginale |
+| Unités de dose | mg, g, ml, mcg, M UI, unité, goutte, comprimé, gélule |
+| Durées | Jours, Semaines, Mois |
+| Fréquences | 1x/j, 2x/j, 3x/j, 4x/j, /6h, /12h, Dose unique |
+
+## Allergies
+
+| Ensemble | Allergènes / Réactions |
+|---|---|
+| Médicaments | Pénicilline, AINS, Morphine, Codéine, Sulfonamides, Céphalosporines... |
+| Aliments | Blé, Cacahuètes, Poisson, Lait, Chocolat, Œufs, Soja... |
+| Environnement | Poussière, Pollen, Latex, Moisissures, Venin d'abeille... |
+| Réactions | Anaphylaxie, Urticaire, Éruption, Toux, Diarrhée, Fièvre, Œdème de Quincke... |
+
 ## Prérequis
 
 - Docker et Docker Compose
@@ -170,7 +203,7 @@ Le script `setup.py` :
 # Suivre les logs de l'Initializer
 docker compose logs -f backend 2>&1 | grep -E "Initializer|ERROR|WARN"
 
-# Redémarrer le backend seulement (pour recharger la configuration sans vider la DB)
+# Redémarrer le backend (recharge la configuration sans vider la DB)
 docker compose restart backend
 
 # Repartir d'une base propre (supprime toutes les données)
@@ -179,20 +212,6 @@ docker compose down && docker volume rm openmrs-mauritanie_openmrs-data openmrs-
 # Vérifier les erreurs de chargement de configuration
 docker compose logs backend 2>&1 | grep -A 6 "could not be constructed"
 ```
-
-## Médicaments prescriptibles
-
-25 médicaments configurés (Drug entries) couvrant les pathologies courantes en centre de santé primaire :
-antipaludéens (Coartem, ASAQ, Quinine), antibiotiques (Amoxicilline, Cotrimoxazole, Métronidazole, Ampicilline, Pénicilline G, Gentamicine), antalgiques (Paracétamol), SRO, compléments (Fer, Acide folique, Vitamine A, Zinc), utérotoniques (Ocytocine, Misoprostol), antiéclamptique (MgSO4), anesthésique local (Lidocaïne).
-
-## Allergies
-
-| Ensemble | Allergènes / Réactions |
-|---|---|
-| Médicaments | Pénicilline, AINS, Morphine, Codéine, Sulfonamides, Céphalosporines... |
-| Aliments | Blé, Cacahuètes, Poisson, Lait, Chocolat, Œufs, Soja... |
-| Environnement | Poussière, Pollen, Latex, Moisissures, Venin d'abeille... |
-| Réactions | Anaphylaxie, Urticaire, Éruption, Toux, Diarrhée, Fièvre, Œdème de Quincke... |
 
 ## Architecture
 

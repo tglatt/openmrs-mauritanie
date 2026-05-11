@@ -8,7 +8,7 @@
         </globalProperty>
         <globalProperty>
             <property>locale.allowed.list</property>
-            <value>fr, ar, en</value>
+            <value>fr, en</value>
         </globalProperty>
 
         <!-- Pays par défaut -->
@@ -53,6 +53,24 @@
         <globalProperty>
             <property>referencedemodata.createDemoPatientsOnNextStartup</property>
             <value>0</value>
+        </globalProperty>
+
+        <!-- Prescriptions médicamenteuses -->
+        <globalProperty>
+            <property>order.drugRoutesConceptUuid</property>
+            <value>162394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+        </globalProperty>
+        <globalProperty>
+            <property>order.drugDosingUnitsConceptUuid</property>
+            <value>dosunit-0000-0000-0000-000000000001</value>
+        </globalProperty>
+        <globalProperty>
+            <property>order.drugDispensingUnitsConceptUuid</property>
+            <value>dosunit-0000-0000-0000-000000000001</value>
+        </globalProperty>
+        <globalProperty>
+            <property>order.drugDurationUnitsConceptUuid</property>
+            <value>1732AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
         </globalProperty>
 
         <!-- Allergies -->

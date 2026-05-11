@@ -1,23 +1,25 @@
-Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type
-5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5088,Temperature,Température,Temp,Température corporelle en degrés Celsius,Finding,Numeric
-5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5089,Weight,Poids,Poids,Poids du patient en kilogrammes,Finding,Numeric
-5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5085,Systolic blood pressure,Tension artérielle systolique,TAS,Tension artérielle systolique en mmHg,Finding,Numeric
-5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5086,Diastolic blood pressure,Tension artérielle diastolique,TAD,Tension artérielle diastolique en mmHg,Finding,Numeric
-5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5090,Height,Taille,Taille,Taille du patient en centimètres,Finding,Numeric
-5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5092,Pulse rate,Fréquence cardiaque,FC,Fréquence cardiaque en battements par minute,Finding,Numeric
-5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5242,Blood oxygen saturation,Saturation en oxygène,SpO2,Saturation en oxygène mesurée par oxymètre de pouls,Finding,Numeric
-5096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5096,MUAC,Périmètre brachial,MUAC,Périmètre brachial en centimètres,Finding,Numeric
-1342AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1342,BMI,IMC,IMC,Indice de masse corporelle,Finding,Numeric
-1284AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1284,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Diagnosis,Text
-1282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1282,Treatment,Traitement,Trait,Traitement prescrit,Drug,Text
-5219AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5219,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Finding,Text
-1643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1643,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Test,Coded
-703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:703,Positive,Positif,Pos,,Misc,N/A
-664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:664,Negative,Négatif,Neg,,Misc,N/A
-163104AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163104,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Finding,Text
-1246AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation,Finding,Coded
-164181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164181,Visit type,Type de consultation,Type consult.,Type de visite (nouvelle ou ancienne consultation),Question,Coded
-164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164180,New consultation,Nouvelle consultation,NC,Nouvelle consultation (premier passage),Misc,N/A
-160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160530,Return consultation,Ancienne consultation,AC,Consultation de suivi,Misc,N/A
-e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Finding,Text
-
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:fr,Short name:fr,Description:fr,Data class,Data type,Units,Allow decimal
+5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5088,Temperature,Température,Temp,Température corporelle en degrés Celsius,Finding,Numeric,°C,true
+5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5089,Weight,Poids,Poids,Poids du patient en kilogrammes,Finding,Numeric,kg,true
+5085AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5085,Systolic blood pressure,Tension artérielle systolique,TAS,Tension artérielle systolique en mmHg,Finding,Numeric,mmHg,false
+5086AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5086,Diastolic blood pressure,Tension artérielle diastolique,TAD,Tension artérielle diastolique en mmHg,Finding,Numeric,mmHg,false
+5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5090,Height,Taille,Taille,Taille du patient en centimètres,Finding,Numeric,cm,true
+5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5092,Pulse rate,Fréquence cardiaque,FC,Fréquence cardiaque en battements par minute,Finding,Numeric,beats/min,false
+5087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5087,Respiratory rate,Fréquence respiratoire,FR,Fréquence respiratoire en cycles par minute,Finding,Numeric,breaths/min,false
+5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5242,Blood oxygen saturation,Saturation en oxygène,SpO2,Saturation en oxygène mesurée par oxymètre de pouls,Finding,Numeric,%,false
+5096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5096,MUAC,Périmètre brachial,MUAC,Périmètre brachial en centimètres,Finding,Numeric,cm,true
+1342AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1342,BMI,IMC,IMC,Indice de masse corporelle,Finding,Numeric,kg/m²,true
+1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1343,Mid-upper arm circumference,Périmètre brachial (MUAC),MUAC,Périmètre brachial mesuré au milieu du bras supérieur,Finding,Numeric,cm,true
+1114AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1114,Vital signs,Signes vitaux,Signes vitaux,Ensemble des signes vitaux,ConvSet,N/A,,
+1284AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1284,Diagnosis,Diagnostic,Diag,Diagnostic médical du patient,Diagnosis,Text,
+1282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1282,Treatment,Traitement,Trait,Traitement prescrit,Drug,Text,
+5219AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:5219,Chief complaint,Motif de consultation,Motif,Motif principal de la consultation,Finding,Text,
+1643AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1643,Malaria test result,Résultat test paludisme,TDR palu,Résultat du test de diagnostic rapide paludisme,Test,Coded,
+703AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:703,Positive,Positif,Pos,,Misc,N/A,
+664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:664,Negative,Négatif,Neg,,Misc,N/A,
+163104AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:163104,Clinical notes,Examen clinique,Examen,Notes d'examen clinique,Finding,Text,
+1246AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:1246,Disposition,Résultat de consultation,Résultat,Issue de la consultation,Finding,Coded,
+164181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164181,Visit type,Type de consultation,Type consult.,Type de visite (nouvelle ou ancienne consultation),Question,Coded,
+164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:164180,New consultation,Nouvelle consultation,NC,Nouvelle consultation (premier passage),Misc,N/A,
+160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,false,CIEL:160530,Return consultation,Ancienne consultation,AC,Consultation de suivi,Misc,N/A,
+e4481085-3bcb-4a9a-84b2-9f7b730ec7b0,false,,Additional observation,Observations,Obs,Observations complémentaires de la consultation,Finding,Text,
