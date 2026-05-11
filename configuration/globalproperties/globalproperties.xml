@@ -55,6 +55,24 @@
             <value>0</value>
         </globalProperty>
 
+        <!-- Allergies -->
+        <globalProperty>
+            <property>allergy.concept.allergens.drug</property>
+            <value>162552AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+        </globalProperty>
+        <globalProperty>
+            <property>allergy.concept.allergens.food</property>
+            <value>162553AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+        </globalProperty>
+        <globalProperty>
+            <property>allergy.concept.allergens.environment</property>
+            <value>162554AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+        </globalProperty>
+        <globalProperty>
+            <property>allergy.concept.reactions</property>
+            <value>162555AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</value>
+        </globalProperty>
+
         <!-- File d'attente -->
         <globalProperty>
             <property>queue.serviceConceptSetName</property>
